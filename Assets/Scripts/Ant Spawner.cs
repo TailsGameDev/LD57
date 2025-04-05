@@ -21,7 +21,8 @@ public class AntSpawner : MonoBehaviour
     {
         if (timeToNextSpawn < Time.time)
         {
-            Instantiate(antPrefab, transform.position, Quaternion.identity);
+            Ant ant = Instantiate(antPrefab, transform.position, Quaternion.identity);
+            ant.transform.SetParent(transform);
 
             timeToNextSpawn = Time.time + Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns);
         }
