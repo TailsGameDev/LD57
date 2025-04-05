@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.48584908, b: 0.48880383, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -100,3 +100,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28bdd8ea8d2f8b546b45fceebf0000ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  direction: {x: 0, y: 0}
+  spriteRenderer: {fileID: 2077279106085392186}
+  previous: {fileID: 0}
+  vertical: {fileID: 6702696267979434291, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
+  horizontal: {fileID: -3998447785731158597, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
+  leftDown: {fileID: -742764432523467643, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
+  rightDown: {fileID: -7593936813564165732, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
+  leftUp: {fileID: -1239635551, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
+  rightUp: {fileID: -363848311909652348, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
