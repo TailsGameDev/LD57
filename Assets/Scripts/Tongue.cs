@@ -2,6 +2,7 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using System;
 
 public class Tongue : MonoBehaviour
 {
@@ -47,12 +48,17 @@ public class Tongue : MonoBehaviour
     private void FixedUpdate()
     {
         if (isRollingBack) RollBack();
-        else if (ShouldMove() )
+        else if (ShouldMove() && isFreeSpace())
         {
             nextUpdateTime = Time.time + timeDif;
             TongueManager.CreateSegment(transform.position);
             Move();
         }
+    }
+
+    private bool isFreeSpace()
+    {
+        return true;
     }
 
     private void RollBack()
