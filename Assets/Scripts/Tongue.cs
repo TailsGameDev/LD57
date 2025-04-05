@@ -35,7 +35,7 @@ public class Tongue : MonoBehaviour
             Debug.Log("up");
             direction = Vector2.up;
         }
-        else if (Input.GetKeyDown(KeyCode.Space))
+        else if (Input.GetKeyDown(KeyCode.Space) && TongueManager.HasTongue())
         {
             isRollingBack = true;
         }
@@ -54,6 +54,8 @@ public class Tongue : MonoBehaviour
 
     private void RollBack()
     {
+
+
         transform.position = lastSegment.transform.position;
         if (lastSegment.previous != null)
             SetLastSegment(lastSegment.previous.GetComponent<TongueSegment>(), true);
@@ -71,7 +73,7 @@ public class Tongue : MonoBehaviour
     public void SetLastSegment(TongueSegment segment, bool destroy)
     {
         if (destroy)
-            GameObject.Destroy(lastSegment.gameObject);
+            TongueManager.DestroySegment(lastSegment.transform);
 
         lastSegment = segment;
     }

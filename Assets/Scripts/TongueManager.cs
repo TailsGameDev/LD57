@@ -19,7 +19,7 @@ public class TongueManager : MonoBehaviour
         }
     }
 
-    private List<Transform> segments = new List<Transform>();
+    public List<Transform> segments = new List<Transform>();
     public Transform segmentPrefab;
     public Tongue tongue;
 
@@ -36,5 +36,10 @@ public class TongueManager : MonoBehaviour
         instance.segments.Remove(segmentTransform);
         GameObject.Destroy(segmentTransform.gameObject);
 
+    }
+
+    public static bool HasTongue()
+    {
+        return instance.segments.Count > 0;
     }
 }
