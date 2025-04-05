@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class OptionsPopUp : MonoBehaviour
@@ -20,5 +21,10 @@ public class OptionsPopUp : MonoBehaviour
     public void OnSFXSliderValueChange()
     {
         SoundsManager.Instance.SetSFXVolume(musicSlider.value);
+    }
+
+    public void OnMainMenuClick() {
+        SceneManager.LoadSceneAsync("MainMenu");
+    
     }
 }
