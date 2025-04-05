@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e1278c382399e5f479192ca6ae09d54f
+guid: ae9071a42f951b6488fb81ad5ff6af36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5256511098883200115
-    second: Semi Circle 512_0
+      213: -2445014837196951177
+    second: reference_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Semi Circle 512_0
+      name: reference_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 512
+        width: 703
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 374d4d68ef0e2f840800000000000000
-      internalID: 5256511098883200115
+      spriteID: 771f056b5ff811ed0800000000000000
+      internalID: -2445014837196951177
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Semi Circle 512_0: 5256511098883200115
+      reference_0: -2445014837196951177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
