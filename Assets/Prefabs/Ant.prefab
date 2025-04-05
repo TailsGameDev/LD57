@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3415411271739165875}
   - component: {fileID: 25375818575808243}
   - component: {fileID: -5368257731849610448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ant
   m_TagString: Ant
   m_Icon: {fileID: 0}
