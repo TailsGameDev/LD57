@@ -16,7 +16,8 @@ public class Ant : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision2D)
     {
-        if (collision2D.collider.tag == "Tongue Tip")
+        string otherTag = collision2D.collider.tag;
+        if (otherTag == "Tongue Tip" || otherTag == "Tongue Base")
         {
             // Set new score on game state and UI
             int currentScore = GameState.Instance.Score;
