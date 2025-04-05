@@ -9,6 +9,8 @@ public class Tongue : MonoBehaviour
     public Vector2 direction = Vector2.zero;
     public TongueSegment lastSegment;
     private bool isRollingBack = false;
+    public float timeDif = 0.05f;
+    private float nextUpdateTime = 0f;
 
 
     // Update is called once per frame
@@ -45,8 +47,9 @@ public class Tongue : MonoBehaviour
     private void FixedUpdate()
     {
         if (isRollingBack) RollBack();
-        else if (ShouldMove())
+        else if (ShouldMove() )
         {
+            nextUpdateTime = Time.time + timeDif;
             TongueManager.CreateSegment(transform.position);
             Move();
         }
@@ -68,7 +71,7 @@ public class Tongue : MonoBehaviour
 
     private bool ShouldMove()
     {
-        return direction != Vector2.zero && (lastSegment == null || direction != -1 * lastSegment.direction);
+        return (direction != Vector2.zero && (lastSegment == null || direction != -1 * lastSegment.direction)) && Time.time > nextUpdateTime;
     }
     public void SetLastSegment(TongueSegment segment, bool destroy)
     {
