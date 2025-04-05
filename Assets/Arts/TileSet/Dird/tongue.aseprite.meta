@@ -143,27 +143,6 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
-    originalName: 
-    pivot: {x: 0.45294118, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 251
-      width: 340
-      height: 239
-    spriteID: 82883be366275cf40bfc08f2e040bf02
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 251}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -173,7 +152,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: tongue
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -182,15 +161,6 @@ ScriptedImporter:
         width: 340
         height: 239
       spriteId: 0694c1e63b50b6a4f88d8b617db69fbf
-    - name: Frame_1
-      frameIndex: 1
-      additiveSortOrder: 0
-      cellRect:
-        x: 96
-        y: 0
-        width: 340
-        height: 239
-      spriteId: 82883be366275cf40bfc08f2e040bf02
     linkedCells: []
     parentIndex: -1
   platformSettings:

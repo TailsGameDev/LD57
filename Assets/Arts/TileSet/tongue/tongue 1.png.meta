@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: fb726f319a8008446b1d316802b895f7
+guid: e1470906c17aa0c4fa025d494ce9c223
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8740666607123590434
-    second: dirdTile_0
+      213: -6667170261817661172
+    second: tongue_0
   - first:
-      213: 3706470966139851720
-    second: dirdTile_1
+      213: -3998447785731158597
+    second: tongue_1
   - first:
-      213: -1097713013685566020
-    second: dirdTile_2
+      213: -742764432523467643
+    second: tongue_2
   - first:
-      213: -5530580957770127020
-    second: dirdTile_3
+      213: 6702696267979434291
+    second: tongue_3
+  - first:
+      213: -6706989154394549399
+    second: tongue_4
+  - first:
+      213: -363848311909652348
+    second: tongue_5
+  - first:
+      213: -7593936813564165732
+    second: tongue_6
+  - first:
+      213: 976747627987339757
+    second: tongue_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,127 +134,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirdTile_0
+      name: tongue 1_0
       rect:
         serializedVersion: 2
-        x: 416
+        x: 256
         y: 208
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 12}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 12}
-        - {x: 1, y: 12}
-      - - {x: 16, y: -13}
-        - {x: 1, y: -13}
-        - {x: -16, y: -13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6f49dc9d07c444fa603e627a3373ff
-      internalID: -2005362244
+      spriteID: d72837ee8c325f64fb63515f97197801
+      internalID: -630127869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_1
+      name: tongue 1_1
       rect:
         serializedVersion: 2
-        x: 448
+        x: 352
         y: 208
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d262652c7a6a934d9321ae560bd8830
-      internalID: 487062419
+      spriteID: 12425440a1359904ab589a8894cf2325
+      internalID: -1442243084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_2
+      name: tongue 1_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 384
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37406e2ed8c7064fab68b1f22f5c3ac
+      internalID: -281921480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongue 1_3
+      rect:
+        serializedVersion: 2
+        x: 64
         y: 176
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6673c3d9691e5e41a0d1f5ddb02e907
-      internalID: -1766908649
+      spriteID: 0ebbcb087974aca46a7d27e0e0933d97
+      internalID: -872786361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_3
+      name: tongue 1_4
       rect:
         serializedVersion: 2
-        x: 192
+        x: 96
         y: 176
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e550afb34c7368e4bab2ac7ff7566dd0
-      internalID: 51294210
+      spriteID: 1911aee0896101d4dbc286bc4c2c2a56
+      internalID: -267771064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_4
+      name: tongue 1_5
       rect:
         serializedVersion: 2
-        x: 224
+        x: 128
         y: 176
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94814b1c33111f242aefd1aeae76c956
-      internalID: 903636758
+      spriteID: 6af4df73d932a9b468eba25d2fa93d9b
+      internalID: 1847458927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_5
+      name: tongue 1_6
       rect:
         serializedVersion: 2
         x: 256
@@ -250,97 +274,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39c7a1e0140bc7a4fa8fdb5f78afd8fb
-      internalID: -302888102
+      spriteID: b3b23d1cee7bd5b45a90ebc273266f46
+      internalID: 1594656815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 176
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9e08226a57a1cc44b1d011775f7903e
-      internalID: -1207297169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_7
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 176
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -11, y: 16}
-        - {x: -11, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -12, y: -16}
-      - - {x: 16, y: 16}
-        - {x: 12, y: 16}
-        - {x: 12, y: -11}
-        - {x: 12, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 961c885a727ec96448af33c4fcea6c52
-      internalID: -578351431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_8
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 176
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48f68f28f7cf5834cb87964e9573bb0e
-      internalID: -1486834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_9
+      name: tongue 1_7
       rect:
         serializedVersion: 2
         x: 384
@@ -348,43 +296,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ea0410a66523a4e8c3cb00b4146bba
-      internalID: -652121679
+      spriteID: e29bb50b5ec64e845ac46de5f873042d
+      internalID: 1007101189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_10
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 176
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fcc8a74aa77b9e49866c387d2fcba22
-      internalID: 1487159364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_11
+      name: tongue 1_8
       rect:
         serializedVersion: 2
         x: 448
@@ -392,52 +318,131 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a91cede1c2d94604fb371f4190bba4c6
-      internalID: 312509708
+      spriteID: 64bae86131028af4088e197d19782ae0
+      internalID: 1140282292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_12
+      name: tongue 1_9
       rect:
         serializedVersion: 2
-        x: 160
+        x: 0
         y: 144
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 11}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 11}
-        - {x: 0, y: 11}
-      - - {x: 16, y: -12}
-        - {x: -16, y: -12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6c01323e8631d44c981ead62168a4da
-      internalID: -441750030
+      spriteID: 86506ea18ee405144a19daface0b508c
+      internalID: -1698489000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_13
+      name: tongue 1_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dabb0d394a0c634e81524bc2f9fddf3
+      internalID: -639791272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongue 1_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199b6eab95db2f246a37ea41b237ee95
+      internalID: -1279314495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongue 1_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635856d6e83d60449b34597dd90c98d0
+      internalID: -2087459544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongue 1_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb73bef3ede69b43a8324989c12c6c1
+      internalID: -1435289860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongue 1_14
       rect:
         serializedVersion: 2
         x: 192
@@ -445,29 +450,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -16, y: -11}
-        - {x: -12, y: -13}
-        - {x: -11, y: -16}
-        - {x: 1, y: -16}
-        - {x: 13, y: -16}
-        - {x: 13, y: 12}
-        - {x: -16, y: 12}
-        - {x: -16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3684ec1801fde804f8a6cfdf48dab3bd
-      internalID: 1208450512
+      spriteID: 632e3fbe3c860234e86a3e577b12971b
+      internalID: 1604950876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_14
+      name: tongue 1_15
       rect:
         serializedVersion: 2
         x: 224
@@ -475,21 +472,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9cfeee6254d0934caf87957be7a6caf
-      internalID: -2011837178
+      spriteID: e9387009d073651449c8a18ac9e2a5f2
+      internalID: -1446124861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_15
+      name: tongue 1_16
       rect:
         serializedVersion: 2
         x: 256
@@ -497,120 +494,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -13, y: -3}
-        - {x: -11, y: 8}
-        - {x: 2, y: 12}
-        - {x: 16, y: 7}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -11, y: -16}
-      - - {x: 16, y: -12}
-        - {x: 14, y: -12}
-        - {x: 12, y: -12}
-        - {x: 11, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc7f4ff263842674d883ffdedde81e7c
-      internalID: 156027774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_16
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 144
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 11}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 11}
-        - {x: 0, y: 11}
-      - - {x: 16, y: -12}
-        - {x: -16, y: -12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0328adb447111ce40b0b1ecac7df383a
-      internalID: -2027349304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_17
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 144
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: 13, y: 16}
-        - {x: 13, y: -11}
-        - {x: -16, y: -11}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      - - {x: -12, y: 12}
-        - {x: -9, y: 16}
-        - {x: -9, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 10}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82584b6f11f113147bad6ef8c6144ae7
-      internalID: 2080611750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_18
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 144
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5083b3e233e159340a50b6cc93b568ec
-      internalID: -931009317
+      spriteID: 9a6c37486f0c18641b03a0842768d4e8
+      internalID: 711170124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_19
+      name: tongue 1_17
       rect:
         serializedVersion: 2
         x: 384
@@ -618,21 +516,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62e0d04f01d25fe48851a3b8f3a1e0b4
-      internalID: 562991017
+      spriteID: e37bfaa3900f3d645ad44ba5593c609a
+      internalID: -1677603557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_20
+      name: tongue 1_18
       rect:
         serializedVersion: 2
         x: 416
@@ -640,21 +538,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f946250d86b8b14bbc1b02beb70043e
-      internalID: 840886172
+      spriteID: e08d99710804f6b4f967f00b4494d6bb
+      internalID: 141769833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_21
+      name: tongue 1_19
       rect:
         serializedVersion: 2
         x: 448
@@ -662,43 +560,87 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25fb382876d942f4a926a2453817d279
-      internalID: -1469111980
+      spriteID: d680c9663a4287d4f85ba07deaf4a41b
+      internalID: -1216962201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_22
+      name: tongue 1_20
       rect:
         serializedVersion: 2
-        x: 160
+        x: 0
         y: 112
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de6e30d2a64f9b14c8cbdf71839de720
-      internalID: -1256516169
+      spriteID: b79bf61e9b5d259478efbaf6141aa34b
+      internalID: 1283849716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_23
+      name: tongue 1_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ae912c4ce72074baf77835a209ce2b
+      internalID: 1291351370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongue 1_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90936c7005e5c24ca479b5f2b45abdb
+      internalID: 77251528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongue 1_23
       rect:
         serializedVersion: 2
         x: 192
@@ -706,107 +648,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -11, y: 16}
-        - {x: -11, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -12, y: -16}
-      - - {x: 16, y: 16}
-        - {x: 12, y: 16}
-        - {x: 12, y: -11}
-        - {x: 12, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0c0a8af6c378a547aa4c0175d0f4c4f
-      internalID: -1859388290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_24
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 112
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5252f6298f35ab4498c623369bba9f0b
-      internalID: -151184923
+      spriteID: 0950b012941f0a742b0296fad591c357
+      internalID: -1078876458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_25
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 112
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -11, y: 16}
-        - {x: -11, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -12, y: -16}
-      - - {x: 16, y: 16}
-        - {x: 12, y: 16}
-        - {x: 12, y: -11}
-        - {x: 12, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2191c4b22e848d4b97e88460216ded6
-      internalID: -546947926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_26
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 112
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f39c7fb928c0e14481bde29969069b6
-      internalID: 1949268554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_27
+      name: tongue 1_24
       rect:
         serializedVersion: 2
         x: 320
@@ -814,21 +670,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ab2c61337a708a418277311c1d4e349
-      internalID: -1791089864
+      spriteID: f00a8d392cced0648b9f59db2a665a97
+      internalID: -2106886125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_28
+      name: tongue 1_25
       rect:
         serializedVersion: 2
         x: 352
@@ -836,21 +692,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b60fcfbe86c721347ac5e64651cda58e
-      internalID: -1162009383
+      spriteID: 3865c874cbd699047a7a38094e19455c
+      internalID: -1916438916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_29
+      name: tongue 1_26
       rect:
         serializedVersion: 2
         x: 384
@@ -858,43 +714,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7fa360aa622d1840b4b97ce4305599d
-      internalID: -1066288910
+      spriteID: f28384978933bb546ac72e3e4ab71efa
+      internalID: 1623203937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_30
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 112
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57c2757c37fdb2c439bceb1f901462b4
-      internalID: 1883406204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_31
+      name: tongue 1_27
       rect:
         serializedVersion: 2
         x: 448
@@ -902,21 +736,43 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687723574f36c894280b82b9aad79a5e
-      internalID: 1673797146
+      spriteID: 0343a7a7508432c4395b58903dc044ae
+      internalID: -2142244695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_32
+      name: tongue 1_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2386ef85293db5d41a9837ea21a568c4
+      internalID: 642745687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongue 1_29
       rect:
         serializedVersion: 2
         x: 160
@@ -924,21 +780,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cc1d2110ad1d904883d83520d4de663
-      internalID: -1810305187
+      spriteID: 5d4371a1c292a7842b8a2fbecc63a103
+      internalID: -1272824029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_33
+      name: tongue 1_30
       rect:
         serializedVersion: 2
         x: 192
@@ -946,33 +802,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: -12}
-        - {x: 1, y: -12}
-        - {x: -12, y: -12}
-        - {x: -12, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      - - {x: 16, y: 16}
-        - {x: 8, y: 16}
-        - {x: 8, y: 15}
-        - {x: 15, y: 9}
-        - {x: 16, y: 9}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cff76782e3b7fb489f49d49ab4198d9
-      internalID: 1851281215
+      spriteID: 702a778a122accb4189a302ff1d96757
+      internalID: 49125896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_34
+      name: tongue 1_31
       rect:
         serializedVersion: 2
         x: 224
@@ -980,30 +824,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 11}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 11}
-        - {x: 0, y: 11}
-      - - {x: 16, y: -12}
-        - {x: -16, y: -12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28accc8e5f249914690d2b1e4bb2e444
-      internalID: 802504197
+      spriteID: 7fe64b0ad5c4c3b499580f758b444057
+      internalID: 890385187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_35
+      name: tongue 1_32
       rect:
         serializedVersion: 2
         x: 256
@@ -1011,67 +846,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: 10, y: 16}
-        - {x: 10, y: 9}
-        - {x: 13, y: 8}
-        - {x: 16, y: 9}
-      - - {x: -13, y: 12}
-        - {x: -10, y: 14}
-        - {x: -10, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 11}
-      - - {x: 16, y: -12}
-        - {x: -2, y: -12}
-        - {x: -16, y: -12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 053888f6e8057004fb2ed3b82904e489
-      internalID: 690369655
+      spriteID: 3367236904658b84cbfecfc6ed2ff94c
+      internalID: 1290959413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_36
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 11}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 11}
-        - {x: 0, y: 11}
-      - - {x: 16, y: -12}
-        - {x: -16, y: -12}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d8651b7feb559c4497ef9192282d566
-      internalID: 1185591390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_37
+      name: tongue 1_33
       rect:
         serializedVersion: 2
         x: 320
@@ -1079,175 +868,87 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51f024ec20a386949b29bb0e0816e813
-      internalID: 1118817142
+      spriteID: 7745981731a91f44bb70e6e2bad80565
+      internalID: 2030372620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_38
+      name: tongue 1_34
       rect:
         serializedVersion: 2
-        x: 352
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7050a070467a104a8ca80084931acc8
-      internalID: 69576343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_39
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75e697b49767c8e4baea0e952937fbdf
-      internalID: 1842773727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_40
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffa3993731fa597488e018de24a78682
-      internalID: 10578698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_41
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78c8874ebf3270142846b4f2d87f8d23
-      internalID: -1596355913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_42
-      rect:
-        serializedVersion: 2
-        x: 160
+        x: 0
         y: 48
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38487e2d336e0f24492a7d2d883ba12e
-      internalID: -2142806312
+      spriteID: f56bd3186d4d9dc44af9f53e03a0951d
+      internalID: -1676527343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_43
+      name: tongue 1_35
       rect:
         serializedVersion: 2
-        x: 192
+        x: 32
         y: 48
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d76e8420d93a39c41990069d8a2e8193
-      internalID: -454074999
+      spriteID: 1915dc38c1dbaab4e9a1de02b27f7017
+      internalID: 1297806108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_44
+      name: tongue 1_36
       rect:
         serializedVersion: 2
-        x: 224
+        x: 64
         y: 48
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a61abdb8a5bbff469a545c5515b858a
-      internalID: -1650597674
+      spriteID: bd77d6e80f3270b418bdb1a70fb6ee30
+      internalID: 123218634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_45
+      name: tongue 1_37
       rect:
         serializedVersion: 2
         x: 256
@@ -1255,43 +956,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8144f889bb5b5fc45a6ac33597b0be52
-      internalID: 1586724323
+      spriteID: 99bddbf769975524ea01e91b145b79c6
+      internalID: 630865924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_46
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 48
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 032556ef44f27e4468482299c2b0650c
-      internalID: -2051495786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_47
+      name: tongue 1_38
       rect:
         serializedVersion: 2
         x: 320
@@ -1299,43 +978,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea07f06ae560fa94d8d4aee0eb9d1246
-      internalID: 2969887
+      spriteID: c0471a836a4af414694eb067e1df901b
+      internalID: -797136118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_48
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 48
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b228e08c4dcc08248aeadb7d0de9d351
-      internalID: 1494441339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_49
+      name: tongue 1_39
       rect:
         serializedVersion: 2
         x: 384
@@ -1343,21 +1000,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f739c7a7a78201849903f05d49ec51fe
-      internalID: -2113904024
+      spriteID: 1579ccff661f86f4eb986866bed89a02
+      internalID: -345382170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_50
+      name: tongue 1_40
       rect:
         serializedVersion: 2
         x: 416
@@ -1365,21 +1022,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3e0aa0494db4524085b5aa1ed6f2043
-      internalID: 115137235
+      spriteID: c5a3ac1c1502ea9438acab0e86f1c390
+      internalID: -591244422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_51
+      name: tongue 1_41
       rect:
         serializedVersion: 2
         x: 448
@@ -1387,87 +1044,87 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2877d7d425762d048bcc3aeec4609e94
-      internalID: -1841894884
+      spriteID: 8dff0682112f44648b48fa3d8035d5cc
+      internalID: 1817178241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_52
+      name: tongue 1_42
       rect:
         serializedVersion: 2
-        x: 160
+        x: 0
         y: 16
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e01618a01fba65b44af1bd0dc8baa130
-      internalID: -216776769
+      spriteID: fdbeb829ec04dd34c8aa22cc31e546c4
+      internalID: 310707554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_53
+      name: tongue 1_43
       rect:
         serializedVersion: 2
-        x: 192
+        x: 32
         y: 16
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20d5e816aff296f43bc56cf926637146
-      internalID: 753879893
+      spriteID: a7cff1c10aceae24ab0531c2f38d84c3
+      internalID: -532242001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_54
+      name: tongue 1_44
       rect:
         serializedVersion: 2
-        x: 224
+        x: 64
         y: 16
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4beac18479fd5804c9fa981d6b8e045f
-      internalID: 1085434297
+      spriteID: c2e54a5afc0f6c6418b4d8627130a63b
+      internalID: 2020929865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_55
+      name: tongue 1_45
       rect:
         serializedVersion: 2
         x: 256
@@ -1475,21 +1132,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 539b4508407795a4a8d0b6d995930c6c
-      internalID: -1914860122
+      spriteID: 486da67d56f1a3549a9382b39df53fba
+      internalID: -1642255107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_56
+      name: tongue 1_46
       rect:
         serializedVersion: 2
         x: 288
@@ -1497,21 +1154,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7caa46123f330c448b94da3078e7b1a6
-      internalID: 1804107191
+      spriteID: b0ddbadfd51e8134891f4c90585ab0d9
+      internalID: 276382351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_57
+      name: tongue 1_47
       rect:
         serializedVersion: 2
         x: 320
@@ -1519,43 +1176,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea0bdf1da3644644cb67c56bccda7df2
-      internalID: -1816258420
+      spriteID: 501c6335b370a164ca3c500cc4674f10
+      internalID: 1272587722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirdTile_58
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 16
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ad61cbf60eeba640b44879e2823c752
-      internalID: 681496590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_59
+      name: tongue 1_48
       rect:
         serializedVersion: 2
         x: 384
@@ -1563,70 +1198,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: 13, y: 16}
-        - {x: 13, y: -11}
-        - {x: -16, y: -11}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      - - {x: -12, y: 12}
-        - {x: -9, y: 16}
-        - {x: -9, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 10}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15a5e7bf5a896ee41888ee9166acb73d
-      internalID: -1451903645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_60
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 16
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 942fa3dbba0af784580e15c38f4c21b5
-      internalID: 1241820127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirdTile_61
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 16
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a2de70831008404db32366a1b332f1d
-      internalID: 1948039526
+      spriteID: 52ced27fd883c1d4e8bafb3ed0b81d5d
+      internalID: 684704455
       vertices: []
       indices: 
       edges: []
@@ -1635,7 +1215,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 011cd2aa96a0cf24cad02743c37b2c29
+    spriteID: 27599a961a584264cb52af945a7b4276
     internalID: 0
     vertices: []
     indices: 
@@ -1645,68 +1225,55 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dirdTile_0: -2005362244
-      dirdTile_1: 487062419
-      dirdTile_10: 1487159364
-      dirdTile_11: 312509708
-      dirdTile_12: -441750030
-      dirdTile_13: 1208450512
-      dirdTile_14: -2011837178
-      dirdTile_15: 156027774
-      dirdTile_16: -2027349304
-      dirdTile_17: 2080611750
-      dirdTile_18: -931009317
-      dirdTile_19: 562991017
-      dirdTile_2: -1766908649
-      dirdTile_20: 840886172
-      dirdTile_21: -1469111980
-      dirdTile_22: -1256516169
-      dirdTile_23: -1859388290
-      dirdTile_24: -151184923
-      dirdTile_25: -546947926
-      dirdTile_26: 1949268554
-      dirdTile_27: -1791089864
-      dirdTile_28: -1162009383
-      dirdTile_29: -1066288910
-      dirdTile_3: 51294210
-      dirdTile_30: 1883406204
-      dirdTile_31: 1673797146
-      dirdTile_32: -1810305187
-      dirdTile_33: 1851281215
-      dirdTile_34: 802504197
-      dirdTile_35: 690369655
-      dirdTile_36: 1185591390
-      dirdTile_37: 1118817142
-      dirdTile_38: 69576343
-      dirdTile_39: 1842773727
-      dirdTile_4: 903636758
-      dirdTile_40: 10578698
-      dirdTile_41: -1596355913
-      dirdTile_42: -2142806312
-      dirdTile_43: -454074999
-      dirdTile_44: -1650597674
-      dirdTile_45: 1586724323
-      dirdTile_46: -2051495786
-      dirdTile_47: 2969887
-      dirdTile_48: 1494441339
-      dirdTile_49: -2113904024
-      dirdTile_5: -302888102
-      dirdTile_50: 115137235
-      dirdTile_51: -1841894884
-      dirdTile_52: -216776769
-      dirdTile_53: 753879893
-      dirdTile_54: 1085434297
-      dirdTile_55: -1914860122
-      dirdTile_56: 1804107191
-      dirdTile_57: -1816258420
-      dirdTile_58: 681496590
-      dirdTile_59: -1451903645
-      dirdTile_6: -1207297169
-      dirdTile_60: 1241820127
-      dirdTile_61: 1948039526
-      dirdTile_7: -578351431
-      dirdTile_8: -1486834
-      dirdTile_9: -652121679
+      tongue 1_0: -630127869
+      tongue 1_1: -1442243084
+      tongue 1_10: -639791272
+      tongue 1_11: -1279314495
+      tongue 1_12: -2087459544
+      tongue 1_13: -1435289860
+      tongue 1_14: 1604950876
+      tongue 1_15: -1446124861
+      tongue 1_16: 711170124
+      tongue 1_17: -1677603557
+      tongue 1_18: 141769833
+      tongue 1_19: -1216962201
+      tongue 1_2: -281921480
+      tongue 1_20: 1283849716
+      tongue 1_21: 1291351370
+      tongue 1_22: 77251528
+      tongue 1_23: -1078876458
+      tongue 1_24: -2106886125
+      tongue 1_25: -1916438916
+      tongue 1_26: 1623203937
+      tongue 1_27: -2142244695
+      tongue 1_28: 642745687
+      tongue 1_29: -1272824029
+      tongue 1_3: -872786361
+      tongue 1_30: 49125896
+      tongue 1_31: 890385187
+      tongue 1_32: 1290959413
+      tongue 1_33: 2030372620
+      tongue 1_34: -1676527343
+      tongue 1_35: 1297806108
+      tongue 1_36: 123218634
+      tongue 1_37: 630865924
+      tongue 1_38: -797136118
+      tongue 1_39: -345382170
+      tongue 1_4: -267771064
+      tongue 1_40: -591244422
+      tongue 1_41: 1817178241
+      tongue 1_42: 310707554
+      tongue 1_43: -532242001
+      tongue 1_44: 2020929865
+      tongue 1_45: -1642255107
+      tongue 1_46: 276382351
+      tongue 1_47: 1272587722
+      tongue 1_48: 684704455
+      tongue 1_5: 1847458927
+      tongue 1_6: 1594656815
+      tongue 1_7: 1007101189
+      tongue 1_8: 1140282292
+      tongue 1_9: -1698489000
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
