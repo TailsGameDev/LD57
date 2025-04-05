@@ -11,6 +11,9 @@ public class MenuScript : MonoBehaviour
     [SerializeField]
     private GameObject creditsPanel;
 
+    [SerializeField]
+    private GameObject loadingPanel;
+
 
     public void ShowCredits()
     {
@@ -31,6 +34,7 @@ public class MenuScript : MonoBehaviour
 
     public void PlayGame()
     {
+        loadingPanel.SetActive(true);
         SceneManager.LoadSceneAsync("GameScene");
     }
 }
