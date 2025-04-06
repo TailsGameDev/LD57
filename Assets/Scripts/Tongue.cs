@@ -6,6 +6,7 @@ using System;
 
 public class Tongue : MonoBehaviour
 {
+    public static Tongue instance;
 
     public Vector2 direction = Vector2.zero;
     public TongueSegment lastSegment;
@@ -23,6 +24,7 @@ public class Tongue : MonoBehaviour
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+        instance = this;
     }
     // Update is called once per frame
     void Update()
