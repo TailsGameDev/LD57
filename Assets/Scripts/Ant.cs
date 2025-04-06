@@ -24,20 +24,16 @@ public class Ant : MonoBehaviour
             var catcher = collision2D.collider.GetComponent<IAntCatcher>();
             if (catcher != null)
             {
-
                 catcher.CatchAnt(this.transform);
                 rb2D.linearVelocity = Vector3.zero;
                 GetComponent<CircleCollider2D>().enabled = false;
-            }/*
-            GameController.Instance.IncreaseScore(score);
-            Destroy(gameObject);
-            */
+            }
         }
     }
 
     public void GetEaten()
     {
-        GameController.Instance.IncreaseScore(score);
+        GameController.Instance.IncreaseScore(score, transform);
         Destroy(gameObject);
     }
 }

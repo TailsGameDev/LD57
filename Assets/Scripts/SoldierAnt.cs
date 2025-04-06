@@ -81,7 +81,7 @@ public class SoldierAnt : MonoBehaviour
 
     private void DieAndScorePoints()
     {
-        GameController.Instance.IncreaseScore(amount: score);
+        GameController.Instance.IncreaseScore(amount: score, transform);
         Destroy(gameObject);
     }
 }

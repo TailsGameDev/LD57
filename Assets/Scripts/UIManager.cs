@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,10 @@ public class UIManager : MonoBehaviour
     private TMPro.TextMeshProUGUI gameOverText = null;
     [SerializeField]
     private GameObject loadingPanel = null;
+    [SerializeField]
+    private FlyingScoreVFX flyingScoreVFX = null;
+    [SerializeField]
+    private RectTransform vfxParent = null;
 
     private float timeToTryFixCameraAspectAgain;
 
@@ -38,7 +43,6 @@ public class UIManager : MonoBehaviour
 
             FixCameraAspect();
         }
-
     }
     public void Initialize(float playerMaxHPParam)
     {
@@ -79,6 +83,29 @@ public class UIManager : MonoBehaviour
     {
         scoreText.text = "score: " + score;
     }
+    public void SpawnScoreVFX(Transform scoreVFXStartPosition, int increaseAmount, Action onComplete)
+    {
+        FlyingScoreVFX vfx = Instantiate(flyingScoreVFX, WorldToCanvasPosition(scoreVFXStartPosition.position), Quaternion.identity);
+        vfx.Initialize(increaseAmount, scoreText.transform, onComplete);
+        vfx.transform.SetParent(vfxParent);
+    }
+    public Vector3 WorldToCanvasPosition(Vector3 worldPosition)
+    {
+        // Convert world position to screen position
+        Vector3 screenPosition = Camera.main.WorldToScreenPoint(worldPosition);
+
+        // Convert screen position to canvas local position
+        Vector2 canvasPosition;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            GetComponent<RectTransform>(), 
+            screenPosition, 
+            Camera.main, 
+            out canvasPosition
+        );
+
+        return canvasPosition;
+    }
+
 
     public void SetPlayerHP(float playerHP)
     {

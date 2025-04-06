@@ -38,13 +38,25 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public void IncreaseScore(int amount)
+    public void IncreaseScore(int amount, Transform scoreVFXStartPosition = null)
     {
-        // Set new score on game state and UI
-        int currentScore = gameState.Score;
-        int newScore = currentScore + amount;
-        gameState.Score = newScore;
-        uiManager.SetScore(newScore);
+        // Call animation to score if possible. Otherwise score immediately
+        if (scoreVFXStartPosition != null)
+        {
+            uiManager.SpawnScoreVFX(scoreVFXStartPosition, amount, onComplete: Score);
+        }
+        else
+        {
+            Score();
+        }
+        void Score()
+        {
+            // Set new score on game state and UI
+            int currentScore = gameState.Score;
+            int newScore = currentScore + amount;
+            gameState.Score = newScore;
+            uiManager.SetScore(newScore);
+        }
     }
 
     public void HitPlayer(float damage)
