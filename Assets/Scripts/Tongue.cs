@@ -3,8 +3,9 @@ using UnityEngine;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using System;
+using UnityEngine.SocialPlatforms.Impl;
 
-public class Tongue : MonoBehaviour
+public class Tongue : MonoBehaviour, IAntCatcher
 {
     public static Tongue instance;
 
@@ -19,6 +20,8 @@ public class Tongue : MonoBehaviour
     public Sprite right;
     public Sprite left;
     private SpriteRenderer sr;
+
+    public List<Transform> ants = new List<Transform>();
 
 
     private void Awake()
@@ -70,27 +73,36 @@ public class Tongue : MonoBehaviour
 
     private bool isFreeSpace()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, LayerMask.GetMask("Ground"));
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, LayerMask.GetMask("Ground", "Tongue Body"));
         if (hit.collider != null)
         {
-            Debug.Log(hit.collider.gameObject.name);
-            if (hit.collider.tag.Equals("Wall"))
+            if (hit.collider.tag.Equals("Wall") || hit.collider.tag.Equals("Tongue Segment")) 
                 return false;
         }
         return true;
     }
-
+        
     private void RollBack()
     {
 
         sr.sprite = PickSprite(lastSegment.direction);
         transform.position = lastSegment.transform.position;
+        lastSegment.ants.ForEach(ant => CatchAnt(ant));
 
-        if (lastSegment.previous != null)
+        if (lastSegment.previous != null) { 
             SetLastSegment(lastSegment.previous.GetComponent<TongueSegment>(), true);
+
+        }
         else
         {
             SetLastSegment(null, true);
+            foreach (Transform ant in ants)
+            {
+                GameController.Instance.IncreaseScore(ant.GetComponent<Ant>().score);
+                Destroy(ant.gameObject);   
+            }
+
+            ants.Clear();
             isRollingBack = false;
         }
     }
@@ -126,5 +138,12 @@ public class Tongue : MonoBehaviour
             return left;
         return right;
 
+    }
+
+    public void CatchAnt(Transform antTransform)
+    {
+        antTransform.parent = transform;
+        Debug.Log("Catch!!");
+        ants.Add(antTransform);
     }
 }

@@ -7,7 +7,8 @@ public class Ant : MonoBehaviour
     [SerializeField]
     private float speed = 0.0f;
     [SerializeField]
-    private int score = 0;
+    public int score = 0;
+
 
     private void Awake()
     {
@@ -19,8 +20,17 @@ public class Ant : MonoBehaviour
         string otherTag = collision2D.collider.tag;
         if (otherTag == "Tongue Tip" || otherTag == "Tongue Segment")
         {
+            var catcher = collision2D.collider.GetComponent<IAntCatcher>();
+            if (catcher != null)
+            {
+
+                catcher.CatchAnt(this.transform);
+                rb2D.linearVelocity = Vector3.zero;
+                GetComponent<CircleCollider2D>().enabled = false;
+            }/*
             GameController.Instance.IncreaseScore(score);
             Destroy(gameObject);
+            */
         }
     }
 }
