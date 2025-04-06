@@ -47,5 +47,6 @@ MonoBehaviour:
   antPrefabs:
   - {fileID: 6498791885644705053, guid: 9c1f0dea9275315479324c4015c9619f, type: 3}
   - {fileID: 6498791885644705053, guid: b33035a74fc94934e8fa36c100faa503, type: 3}
+  - {fileID: 6498791885644705053, guid: d5321478babdc9144b442fa256527a40, type: 3}
   minTimeBetweenSpawns: 2
   maxTimeBetweenSpawns: 35
