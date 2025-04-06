@@ -45,11 +45,7 @@ public class SoldierAnt : MonoBehaviour
             }
             else if (timeToAttack < Time.time)
             {
-                // Update player hp in state and UI
-                float currentHP = GameState.Instance.PlayerHP;
-                float newHP = currentHP - damage;
-                GameState.Instance.PlayerHP = newHP;
-                UIManager.Instance.SetPlayerHP(newHP);
+                GameController.Instance.HitPlayer(damage);
 
                 // Change sprite like an attack animation
                 spriteRenderer.sprite = attackSprite;
@@ -85,12 +81,7 @@ public class SoldierAnt : MonoBehaviour
 
     private void DieAndScorePoints()
     {
-        // Set new score on game state and UI
-        int currentScore = GameState.Instance.Score;
-        int newScore = currentScore + score;
-        GameState.Instance.Score = newScore;
-        UIManager.Instance.SetScore(newScore);
-
+        GameController.Instance.IncreaseScore(amount: score);
         Destroy(gameObject);
     }
 }

@@ -10,15 +10,6 @@ public class UIManager : MonoBehaviour
 
     private float playerMaxHP;
 
-    private static UIManager instance;
-
-    public static UIManager Instance { get => instance; }
-
-    private void Awake()
-    {
-        instance = this;
-    }
-
     public void Initialize(float playerMaxHPParam)
     {
         playerMaxHP = playerMaxHPParam;

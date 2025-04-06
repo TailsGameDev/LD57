@@ -19,12 +19,7 @@ public class Ant : MonoBehaviour
         string otherTag = collision2D.collider.tag;
         if (otherTag == "Tongue Tip" || otherTag == "Tongue Segment")
         {
-            // Set new score on game state and UI
-            int currentScore = GameState.Instance.Score;
-            int newScore = currentScore + score;
-            GameState.Instance.Score = newScore;
-            UIManager.Instance.SetScore(newScore);
-
+            GameController.Instance.IncreaseScore(score);
             Destroy(gameObject);
         }
     }
