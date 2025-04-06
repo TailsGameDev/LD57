@@ -58,6 +58,7 @@ MonoBehaviour:
   idleSprite: {fileID: 7628566249266435210, guid: e2043c004e3fb2e44a76cf9581fc7443, type: 3}
   attackSprite: {fileID: 7482667652216324306, guid: 74022ab9b97d72e4fa5894f56ace67c6, type: 3}
   minSqrDistanceToTongueTip: 1.9
+  animator: {fileID: 9163790671350523010}
 --- !u!212 &5790990683520239499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -284,5 +285,10 @@ PrefabInstance:
 --- !u!4 &6686754061601335277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5973861264552350464, guid: ae02ac07ea9aca941aab711081248016, type: 3}
+  m_PrefabInstance: {fileID: 1021037624476710125}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9163790671350523010 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8144521740582441071, guid: ae02ac07ea9aca941aab711081248016, type: 3}
   m_PrefabInstance: {fileID: 1021037624476710125}
   m_PrefabAsset: {fileID: 0}

@@ -24,6 +24,8 @@ public class SoldierAnt : MonoBehaviour
     private Sprite attackSprite = null;
     [SerializeField]
     private float minSqrDistanceToTongueTip = 0.0f;
+    [SerializeField]
+    private Animator animator = null;
 
     private bool isAttacking;
     private float timeToAttack;
@@ -76,6 +78,7 @@ public class SoldierAnt : MonoBehaviour
         {
             rb2D.linearVelocity = Vector2.zero;
             isAttacking = true;
+            animator.SetTrigger("Attack");
         }
     }
 
