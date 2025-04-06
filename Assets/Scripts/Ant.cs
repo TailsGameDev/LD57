@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Ant : MonoBehaviour
@@ -32,5 +33,11 @@ public class Ant : MonoBehaviour
             Destroy(gameObject);
             */
         }
+    }
+
+    public void GetEaten()
+    {
+        GameController.Instance.IncreaseScore(score);
+        Destroy(gameObject);
     }
 }

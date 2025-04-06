@@ -98,8 +98,8 @@ public class Tongue : MonoBehaviour, IAntCatcher
             SetLastSegment(null, true);
             foreach (Transform ant in ants)
             {
-                GameController.Instance.IncreaseScore(ant.GetComponent<Ant>().score);
-                Destroy(ant.gameObject);   
+
+                ant.GetComponent<Ant>().GetEaten();   
             }
 
             ants.Clear();
