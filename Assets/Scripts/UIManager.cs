@@ -12,11 +12,67 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private GameObject loadingPanel = null;
 
+    private float timeToTryFixCameraAspectAgain;
+
     private float playerMaxHP;
 
+    private int lastScreenWidth;
+    private int lastScreenHeight;
+
+
+    private void Update()
+    {
+        if (timeToTryFixCameraAspectAgain < Time.time)
+        {
+            FixCameraAspect();
+
+            // Set to max value so camera never gets fixed again
+            timeToTryFixCameraAspectAgain = float.MaxValue;
+        }
+
+        // Call fix camera aspect whenever screen changes
+        if (Screen.width != lastScreenWidth || Screen.height != lastScreenHeight)
+        {
+            lastScreenWidth = Screen.width;
+            lastScreenHeight = Screen.height;
+
+            FixCameraAspect();
+        }
+
+    }
     public void Initialize(float playerMaxHPParam)
     {
         playerMaxHP = playerMaxHPParam;
+
+        lastScreenWidth = Screen.width;
+        lastScreenHeight = Screen.height;
+
+        FixCameraAspect();
+
+        timeToTryFixCameraAspectAgain = Time.time + 0.5f;
+    }
+    private void FixCameraAspect()
+    {
+        // Run IA code to scale screen to aspect 16:9
+        const float TARGET_ASPECT = 16.0f / 9.0f;
+        float windowAspect = (float)Screen.width / (float)Screen.height;
+        float scaleHeight = windowAspect / TARGET_ASPECT;
+        if (scaleHeight < 1.0f) {
+            Rect rect = Camera.main.rect;
+            rect.width = 1.0f;
+            rect.height = scaleHeight;
+            rect.x = 0;
+            rect.y = (1.0f - scaleHeight) / 2.0f;
+            Camera.main.rect = rect;
+        } else {
+            float scaleWidth = 1.0f / scaleHeight;
+            Rect rect = Camera.main.rect;
+            rect.width = scaleWidth;
+            rect.height = 1.0f;
+            rect.x = (1.0f - scaleWidth) / 2.0f;
+            rect.y = 0;
+            Camera.main.rect = rect;
+        }
     }
 
     public void SetScore(int score)
