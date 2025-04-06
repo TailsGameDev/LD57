@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e102feab4e43164887e8f9cd81f7f0f
+guid: e77b14749c0833e4c93c6b67ecf2c7f4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638795513543028045
+  platformSettingsDirtyTick: 638795518985232446
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -122,9 +122,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Helmet
+  - name: head
     originalName: 
-    pivot: {x: -0.36363637, y: -1.5}
+    pivot: {x: 0.75, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -132,9 +132,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 11
-      height: 12
-    spriteID: b8e14541fa172c0438993dbdf83b556d
+      width: 8
+      height: 9
+    spriteID: da7426521e71f304da103a98301e986e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -145,22 +145,22 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
-  - layerIndex: 3
-    guid: 143099118
-    name: Helmet
+  - layerIndex: 2
+    guid: 1402582466
+    name: head
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Helmet
+    - name: head
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 20
+        x: 10
         y: 18
-        width: 11
-        height: 12
-      spriteId: b8e14541fa172c0438993dbdf83b556d
+        width: 8
+        height: 9
+      spriteId: da7426521e71f304da103a98301e986e
     linkedCells: []
     parentIndex: -1
   platformSettings:
