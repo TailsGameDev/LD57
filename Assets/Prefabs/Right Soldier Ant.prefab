@@ -50,7 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6498791885644705053, guid: b33035a74fc94934e8fa36c100faa503, type: 3}
       propertyPath: m_Name
-      value: Soldier Ant
+      value: Right Soldier Ant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708900632160884238, guid: b33035a74fc94934e8fa36c100faa503, type: 3}
+      propertyPath: speed
+      value: -50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -14,6 +14,10 @@ public class MenuScript : MonoBehaviour
     [SerializeField]
     private GameObject loadingPanel;
 
+    private void Awake()
+    {
+        Time.timeScale = 1.0f;
+    }
 
     public void ShowCredits()
     {

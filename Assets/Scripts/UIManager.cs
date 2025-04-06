@@ -7,6 +7,10 @@ public class UIManager : MonoBehaviour
     private TMPro.TextMeshProUGUI scoreText = null;
     [SerializeField]
     private Slider playerHPSlider = null;
+    [SerializeField]
+    private TMPro.TextMeshProUGUI gameOverText = null;
+    [SerializeField]
+    private GameObject loadingPanel = null;
 
     private float playerMaxHP;
 
@@ -23,5 +27,15 @@ public class UIManager : MonoBehaviour
     public void SetPlayerHP(float playerHP)
     {
         playerHPSlider.value = (playerHP / playerMaxHP);
+    }
+
+    public void ShowGameOverText()
+    {
+        gameOverText.gameObject.SetActive(true);
+    }
+
+    public void ShowLoadingPanel()
+    {
+        loadingPanel.SetActive(true);
     }
 }
