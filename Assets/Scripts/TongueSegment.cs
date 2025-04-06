@@ -1,16 +1,22 @@
+using System.Collections.Generic;
 using UnityEngine;
 
-public class TongueSegment : MonoBehaviour
+public class TongueSegment : MonoBehaviour, IAntCatcher
 {
     public Vector2 direction;
     public SpriteRenderer spriteRenderer;
     public Transform previous;
+    
+    public List<Transform> ants = new List<Transform>();
+    
     public Sprite vertical;
     public Sprite horizontal;
     public Sprite leftDown;
     public Sprite rightDown;
     public Sprite leftUp;
     public Sprite rightUp;
+
+
 
 
     public void SetupSegment(Tongue tongue)
@@ -46,5 +52,13 @@ public class TongueSegment : MonoBehaviour
             return rightUp;
         }
         return horizontal;
+    }
+
+    public void CatchAnt(Transform antTransform)
+    {
+        antTransform.parent = transform;
+        Debug.Log("Catch!!");
+        ants.Add(antTransform);
+
     }
 }

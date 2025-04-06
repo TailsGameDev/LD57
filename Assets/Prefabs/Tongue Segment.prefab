@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 92485265312273153}
   - component: {fileID: 8869742778315334713}
   - component: {fileID: 2759775844384900587}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tongue Segment
   m_TagString: Tongue Segment
   m_Icon: {fileID: 0}
@@ -105,6 +105,7 @@ MonoBehaviour:
   direction: {x: 0, y: 0}
   spriteRenderer: {fileID: 2077279106085392186}
   previous: {fileID: 0}
+  ants: []
   vertical: {fileID: 1007101189, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
   horizontal: {fileID: -1442243084, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
   leftDown: {fileID: -281921480, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
