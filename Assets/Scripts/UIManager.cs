@@ -85,9 +85,10 @@ public class UIManager : MonoBehaviour
     }
     public void SpawnScoreVFX(Transform scoreVFXStartPosition, int increaseAmount, Action onComplete)
     {
-        FlyingScoreVFX vfx = Instantiate(flyingScoreVFX, WorldToCanvasPosition(scoreVFXStartPosition.position), Quaternion.identity);
+        FlyingScoreVFX vfx = Instantiate(flyingScoreVFX, Camera.main.WorldToScreenPoint(scoreVFXStartPosition.position), Quaternion.identity);
         vfx.Initialize(increaseAmount, scoreText.transform, onComplete);
         vfx.transform.SetParent(vfxParent);
+        vfx.transform.localScale = Vector3.one;
     }
     public Vector3 WorldToCanvasPosition(Vector3 worldPosition)
     {
