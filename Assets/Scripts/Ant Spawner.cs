@@ -3,7 +3,7 @@ using UnityEngine;
 public class AntSpawner : MonoBehaviour
 {
     [SerializeField]
-    private Ant antPrefab = null;
+    private GameObject[] antPrefabs = null;
 
     [SerializeField]
     private float minTimeBetweenSpawns = 0.0f;
@@ -21,8 +21,10 @@ public class AntSpawner : MonoBehaviour
     {
         if (timeToNextSpawn < Time.time)
         {
-            Ant ant = Instantiate(antPrefab, transform.position, Quaternion.identity);
-            ant.transform.SetParent(transform);
+            // Instantiate random ant, and parent it to this game object
+            GameObject randomAntPrefab = antPrefabs[Random.Range(0, antPrefabs.Length)];
+            GameObject antInstance = Instantiate(randomAntPrefab, transform.position, Quaternion.identity);
+            antInstance.transform.SetParent(transform);
 
             timeToNextSpawn = Time.time + Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns);
         }

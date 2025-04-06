@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: antPrefab
       value: 
       objectReference: {fileID: 4734859737864677434, guid: 5d97aa8f61864fe4f8637a7aa38df0b3, type: 3}
+    - target: {fileID: 3578127758970721216, guid: eecc0ac536ee22c4da29cbf47d28527e, type: 3}
+      propertyPath: 'antPrefabs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 3810110591483431316, guid: 5d97aa8f61864fe4f8637a7aa38df0b3, type: 3}
+    - target: {fileID: 3578127758970721216, guid: eecc0ac536ee22c4da29cbf47d28527e, type: 3}
+      propertyPath: 'antPrefabs.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2143486670403252781, guid: b7b7460bbab879041a218a943e721987, type: 3}
     - target: {fileID: 5053757543326004380, guid: eecc0ac536ee22c4da29cbf47d28527e, type: 3}
       propertyPath: m_Name
       value: Right Ant Spawner Variant

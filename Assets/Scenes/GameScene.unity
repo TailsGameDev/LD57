@@ -6140,6 +6140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1532727647}
+  playerHPSlider: {fileID: 1702065191}
 --- !u!1001 &519914187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6953,6 +6954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82826462bd5a23b4298ae96a5dfb58f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxPlayerHP: 100
 --- !u!4 &679359613
 Transform:
   m_ObjectHideFlags: 0
@@ -8729,19 +8731,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 684862307835081398, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 684862307835081398, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 684862307835081398, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 684862307835081398, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 372.4
       objectReference: {fileID: 0}
     - target: {fileID: 1153179200398072484, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchorMax.x
@@ -8768,8 +8770,12 @@ PrefabInstance:
       value: HP Slider
       objectReference: {fileID: 0}
     - target: {fileID: 3453927016939721151, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3453927016939721151, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3453927016939721151, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -10329,6 +10335,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5087134797796123465, guid: bfdeb6f6e9cc2e14f836b3333977266c, type: 3}
   m_PrefabInstance: {fileID: 1701656018}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1702065191 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3453927016939721151, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
+  m_PrefabInstance: {fileID: 1370205155}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1735918115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1735918116}
+  - component: {fileID: 1735918117}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1735918116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735918115}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1735918117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735918115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d43b1237423d54697208cfcaeb16d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: {fileID: 679359612}
+  uiManager: {fileID: 507285556}
 --- !u!1001 &1783820456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11827,6 +11890,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1804413703}
+  - {fileID: 679359613}
+  - {fileID: 1735918116}
   - {fileID: 507285555}
   - {fileID: 595471993}
   - {fileID: 6946373}
@@ -11834,6 +11899,5 @@ SceneRoots:
   - {fileID: 1260326016}
   - {fileID: 628429005}
   - {fileID: 1062092927}
-  - {fileID: 679359613}
   - {fileID: 588036553}
   - {fileID: 5431047213134992809}
