@@ -7,6 +7,7 @@ TagManager:
   - Wall
   - Ant
   - Tongue Tip
+  - Tongue Segment
   layers:
   - Default
   - TransparentFX
