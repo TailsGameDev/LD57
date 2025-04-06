@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47b0f8976d290ff4d9a7447ce0806264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  antPrefab: {fileID: 3415411271739165875, guid: 9c1f0dea9275315479324c4015c9619f, type: 3}
+  antPrefabs:
+  - {fileID: 6498791885644705053, guid: 9c1f0dea9275315479324c4015c9619f, type: 3}
+  - {fileID: 6498791885644705053, guid: b33035a74fc94934e8fa36c100faa503, type: 3}
   minTimeBetweenSpawns: 2
   maxTimeBetweenSpawns: 35

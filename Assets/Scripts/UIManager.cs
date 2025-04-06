@@ -1,21 +1,41 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField]
     private TMPro.TextMeshProUGUI scoreText = null;
+    [SerializeField]
+    private Slider playerHPSlider = null;
+    [SerializeField]
+    private TMPro.TextMeshProUGUI gameOverText = null;
+    [SerializeField]
+    private GameObject loadingPanel = null;
 
-    private static UIManager instance;
+    private float playerMaxHP;
 
-    public static UIManager Instance { get => instance; }
-
-    private void Awake()
+    public void Initialize(float playerMaxHPParam)
     {
-        instance = this;
+        playerMaxHP = playerMaxHPParam;
     }
 
     public void SetScore(int score)
     {
         scoreText.text = "score: " + score;
+    }
+
+    public void SetPlayerHP(float playerHP)
+    {
+        playerHPSlider.value = (playerHP / playerMaxHP);
+    }
+
+    public void ShowGameOverText()
+    {
+        gameOverText.gameObject.SetActive(true);
+    }
+
+    public void ShowLoadingPanel()
+    {
+        loadingPanel.SetActive(true);
     }
 }
