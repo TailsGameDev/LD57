@@ -1,5 +1,37 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3996720270750803074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1829455971672984124}
+  m_Layer: 6
+  m_Name: Ant Animation Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1829455971672984124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996720270750803074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 1.31, y: -2.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1679210293384514393}
+  m_Father: {fileID: 1950347516154432671}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &6498791885644705053
 GameObject:
   m_ObjectHideFlags: 0
@@ -32,7 +64,8 @@ Transform:
   m_LocalPosition: {x: 18.59, y: 3.83, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1829455971672984124}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5790990683520239499
@@ -42,7 +75,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6498791885644705053}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -168,3 +201,107 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 2.505
+--- !u!1001 &263478345661602141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1829455971672984124}
+    m_Modifications:
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.06811
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.06811
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8.06811
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754743163837426336, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      propertyPath: m_Name
+      value: AntBoned
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4754743163837426336, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7327238771550219412}
+  m_SourcePrefab: {fileID: 100100000, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+--- !u!4 &1679210293384514393 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1505839404323164676, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+  m_PrefabInstance: {fileID: 263478345661602141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4779495269523125245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4754743163837426336, guid: 3ac2a17296aa20d4e9bd0a9b4c85f0c6, type: 3}
+  m_PrefabInstance: {fileID: 263478345661602141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7327238771550219412
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4779495269523125245}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f7d87edf3f3f93d49964ea07fa4ecd50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
