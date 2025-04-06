@@ -23,8 +23,8 @@ public class FlyingScoreVFX : MonoBehaviour
 
     private void Update()
     {
-        Vector3.MoveTowards(current: transform.position, target: targetPosition.position,
-                            maxDistanceDelta: speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(current: transform.position, 
+            target: targetPosition.position, maxDistanceDelta: speed * Time.unscaledDeltaTime);
         
         // If distance is lesser than tolerance
         const float TOLERANCE = 0.1f;
