@@ -13,7 +13,17 @@ public class Tongue : MonoBehaviour
     public float timeDif = 0.05f;
     private float nextUpdateTime = 0f;
 
+    public Sprite up;
+    public Sprite down;
+    public Sprite right;
+    public Sprite left;
+    private SpriteRenderer sr;
 
+
+    private void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -58,14 +68,22 @@ public class Tongue : MonoBehaviour
 
     private bool isFreeSpace()
     {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, LayerMask.GetMask("Ground"));
+        if (hit.collider != null)
+        {
+            Debug.Log(hit.collider.gameObject.name);
+            if (hit.collider.tag.Equals("Wall"))
+                return false;
+        }
         return true;
     }
 
     private void RollBack()
     {
 
-
+        sr.sprite = PickSprite(lastSegment.direction);
         transform.position = lastSegment.transform.position;
+
         if (lastSegment.previous != null)
             SetLastSegment(lastSegment.previous.GetComponent<TongueSegment>(), true);
         else
@@ -88,10 +106,23 @@ public class Tongue : MonoBehaviour
     }
     private void Move()
     {
+        sr.sprite = PickSprite(direction);
         this.transform.position = new Vector3(
             Mathf.Round(this.transform.position.x) + direction.x,
             Mathf.Round(this.transform.position.y) + direction.y,
             0
         );
+    }
+
+    private Sprite PickSprite(Vector2 direction)
+    {
+        if (direction == Vector2.up)
+            return up;
+        if (direction == Vector2.down)
+            return down;
+        if(direction == Vector2.left)
+            return left;
+        return right;
+
     }
 }

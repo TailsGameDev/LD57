@@ -25,7 +25,6 @@ public class TongueSegment : MonoBehaviour
     {
         Vector2 origin = previous == null ? Vector2.down : previous.GetComponent<TongueSegment>().direction;
 
-        Debug.Log("Origin: " + origin + " target: " + target);
         if ((origin == Vector2.down && target == Vector2.down) || (origin == Vector2.up && target == Vector2.up))
         {
             return vertical;

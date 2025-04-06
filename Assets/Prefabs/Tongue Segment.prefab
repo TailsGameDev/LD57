@@ -103,9 +103,9 @@ MonoBehaviour:
   direction: {x: 0, y: 0}
   spriteRenderer: {fileID: 2077279106085392186}
   previous: {fileID: 0}
-  vertical: {fileID: 6702696267979434291, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
-  horizontal: {fileID: -3998447785731158597, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
-  leftDown: {fileID: -742764432523467643, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
-  rightDown: {fileID: -7593936813564165732, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
+  vertical: {fileID: 1007101189, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
+  horizontal: {fileID: -1442243084, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
+  leftDown: {fileID: -281921480, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
+  rightDown: {fileID: -872786361, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
   leftUp: {fileID: -1239635551, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
-  rightUp: {fileID: -363848311909652348, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
+  rightUp: {fileID: -1279314495, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
