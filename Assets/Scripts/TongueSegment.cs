@@ -6,6 +6,7 @@ public class TongueSegment : MonoBehaviour, IAntCatcher
     public Vector2 direction;
     public SpriteRenderer spriteRenderer;
     public Transform previous;
+    public Shaker shaker;
     
     public List<Transform> ants = new List<Transform>();
     
@@ -59,6 +60,12 @@ public class TongueSegment : MonoBehaviour, IAntCatcher
         antTransform.parent = transform;
         Debug.Log("Catch!!");
         ants.Add(antTransform);
+        shaker.Shake(.5f);
 
+    }
+
+    public void TakeDamage()
+    {
+        shaker.Shake(.5f);
     }
 }
