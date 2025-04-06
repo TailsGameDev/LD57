@@ -17,8 +17,6 @@ public class SoldierAnt : MonoBehaviour
     private float timeIntervalToAnimateIdle = 0.0f;
 
     [SerializeField]
-    private SpriteRenderer spriteRenderer = null;
-    [SerializeField]
     private Sprite idleSprite = null;
     [SerializeField]
     private Sprite attackSprite = null;
@@ -26,14 +24,15 @@ public class SoldierAnt : MonoBehaviour
     private float minSqrDistanceToTongueTip = 0.0f;
     [SerializeField]
     private Animator animator = null;
+    [SerializeField]
+    private AnimationEventHandler animationEventHandler = null;
 
     private bool isAttacking;
-    private float timeToAttack;
-    private float timeToAnimateIdle;
 
     private void Awake()
     {
         rb2D.AddForce(transform.right * speed);
+        animationEventHandler.Initialize(onAttackAnimationFrameParam: OnAttackAnimationFrame);
     }
 
     private void Update()
@@ -45,26 +44,12 @@ public class SoldierAnt : MonoBehaviour
             {
                 DieAndScorePoints();
             }
-            else if (timeToAttack < Time.time)
-            {
-                GameController.Instance.HitPlayer(damage);
-
-                // Change sprite like an attack animation
-                spriteRenderer.sprite = attackSprite;
-
-                // Set timers
-                timeToAttack = Time.time + timeIntervalToAttack;
-                timeToAnimateIdle = Time.time + timeIntervalToAnimateIdle;
-            }
-            else if (Time.time > timeToAnimateIdle)
-            {
-                // Set to idle, like the attack animation is ending
-                spriteRenderer.sprite = idleSprite;
-
-                // Set time to animate idle to infinity so it gets the real time once the ant attacks again
-                timeToAnimateIdle = float.MaxValue;
-            }
         } 
+    }
+    private void OnAttackAnimationFrame()
+    {
+        GameController.Instance.HitPlayer(damage);
+        Debug.LogError("hit here", this);
     }
 
     private void OnCollisionEnter2D(Collision2D collision2D)

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5973861264552350464}
+  - component: {fileID: 5715639844542934938}
   - component: {fileID: 8144521740582441071}
   m_Layer: 0
   m_Name: AntSoldier
@@ -38,6 +39,18 @@ Transform:
   - {fileID: 4572131947740089359}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5715639844542934938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7726242902569695071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b655038c6111d846aaca55b76c7a4cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &8144521740582441071
 Animator:
   serializedVersion: 7
