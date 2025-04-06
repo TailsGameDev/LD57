@@ -618,7 +618,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1804413702}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -628,7 +628,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1958750277
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &507285555
@@ -646,6 +646,7 @@ RectTransform:
   - {fileID: 2074640451}
   - {fileID: 1532727646}
   - {fileID: 829910691}
+  - {fileID: 1970446322}
   - {fileID: 1370205156}
   - {fileID: 308912602}
   m_Father: {fileID: 0}
@@ -1804,19 +1805,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 684862307835081398, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 684862307835081398, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 684862307835081398, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 684862307835081398, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 372.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1153179200398072484, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1920,15 +1921,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6760370107069913828, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.66564214
       objectReference: {fileID: 0}
     - target: {fileID: 6760370107069913828, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.66564214
       objectReference: {fileID: 0}
     - target: {fileID: 6760370107069913828, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.66564214
       objectReference: {fileID: 0}
     - target: {fileID: 6760370107069913828, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1960,11 +1961,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6760370107069913828, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -471.7
       objectReference: {fileID: 0}
     - target: {fileID: 6760370107069913828, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -49
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 6760370107069913828, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1980,10 +1981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6760370107069913828, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1970446322}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6bbe95638970344a945fd4f4f947c28, type: 3}
 --- !u!224 &1370205156 stripped
@@ -2301,10 +2299,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 507285555}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 234.4801, y: -67.100006}
-  m_SizeDelta: {x: 344.16, y: 50}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -621, y: -121}
+  m_SizeDelta: {x: 344.16003, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1532727647
 MonoBehaviour:
@@ -3278,7 +3276,7 @@ GameObject:
   - component: {fileID: 1970446324}
   - component: {fileID: 1970446323}
   m_Layer: 5
-  m_Name: SFX Volume
+  m_Name: Slider Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3293,14 +3291,14 @@ RectTransform:
   m_GameObject: {fileID: 1970446321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7949201, y: 0.7949201, z: 0.7949201}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1370205156}
+  m_Father: {fileID: 507285555}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -427, y: -26}
+  m_AnchoredPosition: {x: -767.1308, y: -52.79492}
   m_SizeDelta: {x: 95.7, y: 40.800003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1970446323
@@ -3619,6 +3617,22 @@ PrefabInstance:
     - target: {fileID: 2108244471265651217, guid: d2d2c65d5dd4f5640b44bc6b2cda43ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937340375768062057, guid: d2d2c65d5dd4f5640b44bc6b2cda43ee, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937340375768062057, guid: d2d2c65d5dd4f5640b44bc6b2cda43ee, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937340375768062057, guid: d2d2c65d5dd4f5640b44bc6b2cda43ee, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160.59998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937340375768062057, guid: d2d2c65d5dd4f5640b44bc6b2cda43ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 383
       objectReference: {fileID: 0}
     - target: {fileID: 4337936538324147097, guid: d2d2c65d5dd4f5640b44bc6b2cda43ee, type: 3}
       propertyPath: m_Name
