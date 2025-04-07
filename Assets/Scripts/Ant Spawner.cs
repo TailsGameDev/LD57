@@ -27,6 +27,11 @@ public class AntSpawner : MonoBehaviour
             antInstance.transform.SetParent(transform);
 
             timeToNextSpawn = Time.time + Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns);
+            maxTimeBetweenSpawns = maxTimeBetweenSpawns * 0.8f;
+            if(maxTimeBetweenSpawns < 5f)
+            {
+                maxTimeBetweenSpawns = 20f;
+            }
         }
     }
 }
