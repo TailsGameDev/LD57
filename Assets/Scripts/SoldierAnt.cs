@@ -27,6 +27,7 @@ public class SoldierAnt : MonoBehaviour
     [SerializeField]
     private AnimationEventHandler animationEventHandler = null;
 
+    private TongueSegment target;
     private bool isAttacking;
 
     private void Awake()
@@ -49,7 +50,7 @@ public class SoldierAnt : MonoBehaviour
     private void OnAttackAnimationFrame()
     {
         GameController.Instance.HitPlayer(damage);
-        Debug.LogError("hit here", this);
+        target.TakeDamage();
     }
 
     private void OnCollisionEnter2D(Collision2D collision2D)
@@ -61,6 +62,7 @@ public class SoldierAnt : MonoBehaviour
         }
         else if (otherTag == "Tongue Segment")
         {
+            target = collision2D.collider.GetComponent<TongueSegment>();
             rb2D.linearVelocity = Vector2.zero;
             isAttacking = true;
             animator.SetTrigger("Attack");

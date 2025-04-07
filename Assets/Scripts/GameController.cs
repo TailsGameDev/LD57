@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
     private bool isLoadingMainMenu;
     private float unscaledTimeToGoToMenu;
     private static GameController instance;
+    private float targetHp;
 
 
     public static GameController Instance { get => instance; }
@@ -25,6 +26,7 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1.0f;
         instance = this;
         uiManager.Initialize(gameState.MaxPlayerHP);
+        targetHp = gameState.MaxPlayerHP;
     }
     private void Update()
     {
@@ -35,6 +37,22 @@ public class GameController : MonoBehaviour
             uiManager.ShowLoadingPanel();
             SceneManager.LoadSceneAsync("MainMenu");
             isLoadingMainMenu = true;
+        }
+        if(gameState.PlayerHP != targetHp)
+        {
+            gameState.PlayerHP--;
+            uiManager.SetPlayerHP(gameState.PlayerHP);
+
+            if (gameState.PlayerHP <= 0)
+            {
+                isGameOver = true;
+
+                uiManager.ShowGameOverText();
+
+                Time.timeScale = 0.0f;
+
+                unscaledTimeToGoToMenu = Time.unscaledTime + gameOverStateDuration;
+            }
         }
     }
 
@@ -61,22 +79,6 @@ public class GameController : MonoBehaviour
 
     public void HitPlayer(float damage)
     {
-        // Update player hp in state and UI
-        float currentHP = gameState.PlayerHP;
-        float newHP = currentHP - damage;
-        gameState.PlayerHP = newHP;
-        uiManager.SetPlayerHP(newHP);
-
-        // Treat game over situation
-        if (newHP <= 0)
-        {
-            isGameOver = true;
-            
-            uiManager.ShowGameOverText();
-
-            Time.timeScale = 0.0f;
-
-            unscaledTimeToGoToMenu = Time.unscaledTime + gameOverStateDuration;
-        }
+        targetHp = gameState.PlayerHP - damage;
     }
 }
