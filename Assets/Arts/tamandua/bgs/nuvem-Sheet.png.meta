@@ -1,0 +1,1366 @@
+fileFormatVersion: 2
+guid: cbd48e9d5ded7a04284d6f35cf44dc69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5924179014076552483
+    second: nuvem-Sheet_0
+  - first:
+      213: 2163964682346294941
+    second: nuvem-Sheet_1
+  - first:
+      213: -7131855368276571688
+    second: nuvem-Sheet_2
+  - first:
+      213: 866455923336239523
+    second: nuvem-Sheet_3
+  - first:
+      213: -1478281676612718333
+    second: nuvem-Sheet_4
+  - first:
+      213: 4524760293684328785
+    second: nuvem-Sheet_5
+  - first:
+      213: 315027300935493962
+    second: nuvem-Sheet_6
+  - first:
+      213: 2918074461773534147
+    second: nuvem-Sheet_7
+  - first:
+      213: 7596361097624163322
+    second: nuvem-Sheet_8
+  - first:
+      213: 5230315290063749302
+    second: nuvem-Sheet_9
+  - first:
+      213: -6277859867057692929
+    second: nuvem-Sheet_10
+  - first:
+      213: 1830498685717149421
+    second: nuvem-Sheet_11
+  - first:
+      213: -1492289068760709918
+    second: nuvem-Sheet_12
+  - first:
+      213: 6654193725769867807
+    second: nuvem-Sheet_13
+  - first:
+      213: 1112537708025057941
+    second: nuvem-Sheet_14
+  - first:
+      213: 4492748064909825920
+    second: nuvem-Sheet_15
+  - first:
+      213: -8576148607679372071
+    second: nuvem-Sheet_16
+  - first:
+      213: 9151557086272464592
+    second: nuvem-Sheet_17
+  - first:
+      213: 2168844897992327134
+    second: nuvem-Sheet_18
+  - first:
+      213: 8794327034315762230
+    second: nuvem-Sheet_19
+  - first:
+      213: 7864765383601799222
+    second: nuvem-Sheet_20
+  - first:
+      213: 3090264583365115936
+    second: nuvem-Sheet_21
+  - first:
+      213: -270422207222535529
+    second: nuvem-Sheet_22
+  - first:
+      213: -459127108755679387
+    second: nuvem-Sheet_23
+  - first:
+      213: -8589966504530579704
+    second: nuvem-Sheet_24
+  - first:
+      213: 5626646125154230580
+    second: nuvem-Sheet_25
+  - first:
+      213: 4820283120720537167
+    second: nuvem-Sheet_26
+  - first:
+      213: 1093671096860682538
+    second: nuvem-Sheet_27
+  - first:
+      213: -3886108644075480875
+    second: nuvem-Sheet_28
+  - first:
+      213: -6918790226624419918
+    second: nuvem-Sheet_29
+  - first:
+      213: 1410424402716520016
+    second: nuvem-Sheet_30
+  - first:
+      213: -8493762845159941465
+    second: nuvem-Sheet_31
+  - first:
+      213: -3661399793493524389
+    second: nuvem-Sheet_32
+  - first:
+      213: -7614844399427732212
+    second: nuvem-Sheet_33
+  - first:
+      213: -4332524436141682597
+    second: nuvem-Sheet_34
+  - first:
+      213: 8043415396347122250
+    second: nuvem-Sheet_35
+  - first:
+      213: -233965066486827670
+    second: nuvem-Sheet_36
+  - first:
+      213: -6830990521246893382
+    second: nuvem-Sheet_37
+  - first:
+      213: 5606571329481599612
+    second: nuvem-Sheet_38
+  - first:
+      213: 7300010006089654410
+    second: nuvem-Sheet_39
+  - first:
+      213: -4412356141646007636
+    second: nuvem-Sheet_40
+  - first:
+      213: 3195028481919810037
+    second: nuvem-Sheet_41
+  - first:
+      213: -2864102569834691867
+    second: nuvem-Sheet_42
+  - first:
+      213: 249936140679553092
+    second: nuvem-Sheet_43
+  - first:
+      213: -2877009630296571560
+    second: nuvem-Sheet_44
+  - first:
+      213: 6840597424924252537
+    second: nuvem-Sheet_45
+  - first:
+      213: 8322350304911767801
+    second: nuvem-Sheet_46
+  - first:
+      213: -1502908254083879491
+    second: nuvem-Sheet_47
+  - first:
+      213: 6723368451167797475
+    second: nuvem-Sheet_48
+  - first:
+      213: 3561597734335051419
+    second: nuvem-Sheet_49
+  - first:
+      213: 6309206848303790099
+    second: nuvem-Sheet_50
+  - first:
+      213: 3978654936400359295
+    second: nuvem-Sheet_51
+  - first:
+      213: 1120987177076571825
+    second: nuvem-Sheet_52
+  - first:
+      213: 5316172212976438644
+    second: nuvem-Sheet_53
+  - first:
+      213: 6945775082226381384
+    second: nuvem-Sheet_54
+  - first:
+      213: -342037917278956891
+    second: nuvem-Sheet_55
+  - first:
+      213: 2583803382017721736
+    second: nuvem-Sheet_56
+  - first:
+      213: 41987216621319873
+    second: nuvem-Sheet_57
+  - first:
+      213: -1942971236558233784
+    second: nuvem-Sheet_58
+  - first:
+      213: -8199416715908998150
+    second: nuvem-Sheet_59
+  - first:
+      213: 895826413012102583
+    second: nuvem-Sheet_60
+  - first:
+      213: 813635697645800012
+    second: nuvem-Sheet_61
+  - first:
+      213: 3262216650184662468
+    second: nuvem-Sheet_62
+  - first:
+      213: 8664377813746212978
+    second: nuvem-Sheet_63
+  - first:
+      213: 7270988957575849589
+    second: nuvem-Sheet_64
+  - first:
+      213: -2741433954223729129
+    second: nuvem-Sheet_65
+  - first:
+      213: -7405374335466719634
+    second: nuvem-Sheet_66
+  - first:
+      213: 2781876926147648367
+    second: nuvem-Sheet_67
+  - first:
+      213: 9111678626970737798
+    second: nuvem-Sheet_68
+  - first:
+      213: 1429695557076616567
+    second: nuvem-Sheet_69
+  - first:
+      213: -1876221210017159184
+    second: nuvem-Sheet_70
+  - first:
+      213: -2082291023252009189
+    second: nuvem-Sheet_71
+  - first:
+      213: 3410405340779483164
+    second: nuvem-Sheet_72
+  - first:
+      213: 1543102744432205362
+    second: nuvem-Sheet_73
+  - first:
+      213: 3899684407297961391
+    second: nuvem-Sheet_74
+  - first:
+      213: -7684924321551264878
+    second: nuvem-Sheet_75
+  - first:
+      213: -4498320838761755811
+    second: nuvem-Sheet_76
+  - first:
+      213: -6349926124117140299
+    second: nuvem-Sheet_77
+  - first:
+      213: 5902609907139296285
+    second: nuvem-Sheet_78
+  - first:
+      213: 3699256885151848593
+    second: nuvem-Sheet_79
+  - first:
+      213: -4210557946806546108
+    second: nuvem-Sheet_80
+  - first:
+      213: -110992381153799610
+    second: nuvem-Sheet_81
+  - first:
+      213: -6090247624628977131
+    second: nuvem-Sheet_82
+  - first:
+      213: 1329336163637437784
+    second: nuvem-Sheet_83
+  - first:
+      213: -6401636130809622430
+    second: nuvem-Sheet_84
+  - first:
+      213: 6443926601222242181
+    second: nuvem-Sheet_85
+  - first:
+      213: -758304516889239483
+    second: nuvem-Sheet_86
+  - first:
+      213: -6848220023148952652
+    second: nuvem-Sheet_87
+  - first:
+      213: 7877267340969505715
+    second: nuvem-Sheet_88
+  - first:
+      213: 6612423983139442796
+    second: nuvem-Sheet_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nuvem-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaa428039619cda0800000000000000
+      internalID: -5924179014076552483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9eedb5d962f70e10800000000000000
+      internalID: 2163964682346294941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d98968245f860d90800000000000000
+      internalID: -7131855368276571688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a95df35215460c00800000000000000
+      internalID: 866455923336239523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301b78bb5a61c7be0800000000000000
+      internalID: -1478281676612718333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159b8de838d2bce30800000000000000
+      internalID: 4524760293684328785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1440
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a496fce39a33f5400800000000000000
+      internalID: 315027300935493962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3962a23451f7820800000000000000
+      internalID: 2918074461773534147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af31c79cb22bb6960800000000000000
+      internalID: 7596361097624163322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b04b8f7b00d59840800000000000000
+      internalID: 5230315290063749302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe585266bf80e8a0800000000000000
+      internalID: -6277859867057692929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de67df33bdc376910800000000000000
+      internalID: 1830498685717149421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4c15a9ff25a4be0800000000000000
+      internalID: -1492289068760709918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1152
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12652b20f1785c50800000000000000
+      internalID: 6654193725769867807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5929f06a627807f00800000000000000
+      internalID: 1112537708025057941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087164abf82795e30800000000000000
+      internalID: 4492748064909825920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d46f4a97466bf880800000000000000
+      internalID: -8576148607679372071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6aaf4deacd00f70800000000000000
+      internalID: 9151557086272464592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf30c591f8491e10800000000000000
+      internalID: 2168844897992327134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a6107e7d9bb0a70800000000000000
+      internalID: 8794327034315762230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 864
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630cf537272452d60800000000000000
+      internalID: 7864765383601799222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020c2710443d2ea20800000000000000
+      internalID: 3090264583365115936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79aaf1f6f644f3cf0800000000000000
+      internalID: -270422207222535529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5679ddfb35ad0a9f0800000000000000
+      internalID: -459127108755679387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f63f8c9fe4ac880800000000000000
+      internalID: -8589966504530579704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43165aee6dcd51e40800000000000000
+      internalID: 5626646125154230580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46eb5795f515e240800000000000000
+      internalID: 4820283120720537167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 576
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a292e7d61108d2f00800000000000000
+      internalID: 1093671096860682538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d85e4717c4c11ac0800000000000000
+      internalID: -3886108644075480875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b76b9a32f48bff90800000000000000
+      internalID: -6918790226624419918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ee5728585d29310800000000000000
+      internalID: 1410424402716520016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa94d7b1b7102a80800000000000000
+      internalID: -8493762845159941465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5041286948103dc0800000000000000
+      internalID: -3661399793493524389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dbc382d53a25690800000000000000
+      internalID: -7614844399427732212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b505313eaf7cfd3c0800000000000000
+      internalID: -4332524436141682597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a429d28efa3ff9f60800000000000000
+      internalID: 8043415396347122250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65b33af20ac0ccf0800000000000000
+      internalID: -233965066486827670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abab40520527331a0800000000000000
+      internalID: -6830990521246893382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ae3a55bea8ecd40800000000000000
+      internalID: 5606571329481599612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8065c56c68de4560800000000000000
+      internalID: 7300010006089654410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca23da2877924c2c0800000000000000
+      internalID: -4412356141646007636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvem-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9f510f975075c20800000000000000
+      internalID: 3195028481919810037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 45b41aad0cd0d364b89f7323e1c7cb72
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nuvem-Sheet_0: -5924179014076552483
+      nuvem-Sheet_1: 2163964682346294941
+      nuvem-Sheet_10: -6277859867057692929
+      nuvem-Sheet_11: 1830498685717149421
+      nuvem-Sheet_12: -1492289068760709918
+      nuvem-Sheet_13: 6654193725769867807
+      nuvem-Sheet_14: 1112537708025057941
+      nuvem-Sheet_15: 4492748064909825920
+      nuvem-Sheet_16: -8576148607679372071
+      nuvem-Sheet_17: 9151557086272464592
+      nuvem-Sheet_18: 2168844897992327134
+      nuvem-Sheet_19: 8794327034315762230
+      nuvem-Sheet_2: -7131855368276571688
+      nuvem-Sheet_20: 7864765383601799222
+      nuvem-Sheet_21: 3090264583365115936
+      nuvem-Sheet_22: -270422207222535529
+      nuvem-Sheet_23: -459127108755679387
+      nuvem-Sheet_24: -8589966504530579704
+      nuvem-Sheet_25: 5626646125154230580
+      nuvem-Sheet_26: 4820283120720537167
+      nuvem-Sheet_27: 1093671096860682538
+      nuvem-Sheet_28: -3886108644075480875
+      nuvem-Sheet_29: -6918790226624419918
+      nuvem-Sheet_3: 866455923336239523
+      nuvem-Sheet_30: 1410424402716520016
+      nuvem-Sheet_31: -8493762845159941465
+      nuvem-Sheet_32: -3661399793493524389
+      nuvem-Sheet_33: -7614844399427732212
+      nuvem-Sheet_34: -4332524436141682597
+      nuvem-Sheet_35: 8043415396347122250
+      nuvem-Sheet_36: -233965066486827670
+      nuvem-Sheet_37: -6830990521246893382
+      nuvem-Sheet_38: 5606571329481599612
+      nuvem-Sheet_39: 7300010006089654410
+      nuvem-Sheet_4: -1478281676612718333
+      nuvem-Sheet_40: -4412356141646007636
+      nuvem-Sheet_41: 3195028481919810037
+      nuvem-Sheet_5: 4524760293684328785
+      nuvem-Sheet_6: 315027300935493962
+      nuvem-Sheet_7: 2918074461773534147
+      nuvem-Sheet_8: 7596361097624163322
+      nuvem-Sheet_9: 5230315290063749302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
