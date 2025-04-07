@@ -30,7 +30,7 @@ public class AntSpawner : MonoBehaviour
             maxTimeBetweenSpawns = maxTimeBetweenSpawns * 0.8f;
             if(maxTimeBetweenSpawns < 5f)
             {
-                maxTimeBetweenSpawns = 20f;
+                maxTimeBetweenSpawns = Random.Range(15f, 30f);
             }
         }
     }

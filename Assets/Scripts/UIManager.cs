@@ -16,10 +16,15 @@ public class UIManager : MonoBehaviour
     private FlyingScoreVFX flyingScoreVFX = null;
     [SerializeField]
     private RectTransform vfxParent = null;
+    [SerializeField]
+    private Image StomachFill = null;
 
     private float timeToTryFixCameraAspectAgain;
 
     private float playerMaxHP;
+    private float playerMaxHunger;
+
+
 
     private int lastScreenWidth;
     private int lastScreenHeight;
@@ -44,9 +49,10 @@ public class UIManager : MonoBehaviour
             FixCameraAspect();
         }
     }
-    public void Initialize(float playerMaxHPParam)
+    public void Initialize(float playerMaxHPParam, float playerMaxHungerParam)
     {
         playerMaxHP = playerMaxHPParam;
+        playerMaxHunger = playerMaxHungerParam;
 
         lastScreenWidth = Screen.width;
         lastScreenHeight = Screen.height;
@@ -111,6 +117,15 @@ public class UIManager : MonoBehaviour
     public void SetPlayerHP(float playerHP)
     {
         playerHPSlider.value = (playerHP / playerMaxHP);
+    }
+
+    public void SetPlayerHunger(float playerHunger) 
+    {
+        StomachFill.fillAmount = (playerHunger/playerMaxHunger);
+
+
+        Debug.Log($"[UI] SetPlayerHunger: {playerHunger} / {playerMaxHunger} = {playerHunger / playerMaxHunger}");
+
     }
 
     public void ShowGameOverText()
