@@ -35,22 +35,22 @@ public class Tongue : MonoBehaviour, IAntCatcher
 
         if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("left");
+            // Debug.Log("left");
             direction = Vector2.left;
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            Debug.Log("down");
+            // Debug.Log("down");
             direction = Vector2.down;
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            Debug.Log("right");
+            // Debug.Log("right");
             direction = Vector2.right;
         }
         else if (Input.GetKey(KeyCode.W))
         {
-            Debug.Log("up");
+            // Debug.Log("up");
             direction = Vector2.up;
         }
         else if (Input.GetKeyDown(KeyCode.Space) && TongueManager.HasTongue())

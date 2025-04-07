@@ -40,7 +40,7 @@ public class GameController : MonoBehaviour
         instance = this;
         uiManager.Initialize(gameState.MaxPlayerHP,gameState.MaxPlayerHunger);
         targetHp = gameState.MaxPlayerHP;
-        Debug.Log($"[Init] MaxPlayerHunger: {gameState.MaxPlayerHunger} | PlayerHunger: {gameState.PlayerHunger}");
+        // Debug.Log($"[Init] MaxPlayerHunger: {gameState.MaxPlayerHunger} | PlayerHunger: {gameState.PlayerHunger}");
         uiManager.SetHighScore();
 
     }
@@ -133,7 +133,7 @@ public class GameController : MonoBehaviour
         {
             PlayerPrefs.SetInt("HighScore", currentScore);
             PlayerPrefs.Save(); 
-            Debug.Log("New High Score: " + currentScore);
+            // Debug.Log("New High Score: " + currentScore);
         }
     }
 

@@ -127,9 +127,7 @@ public class UIManager : MonoBehaviour
     {
         StomachFill.fillAmount = (playerHunger/playerMaxHunger);
 
-
-        Debug.Log($"[UI] SetPlayerHunger: {playerHunger} / {playerMaxHunger} = {playerHunger / playerMaxHunger}");
-
+        // Debug.Log($"[UI] SetPlayerHunger: {playerHunger} / {playerMaxHunger} = {playerHunger / playerMaxHunger}");
     }
 
     public void ShowGameOverText()
