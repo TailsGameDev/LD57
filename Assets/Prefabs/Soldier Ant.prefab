@@ -50,8 +50,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2D: {fileID: 25375818575808243}
   speed: 50
-  score: 20
-  damage: 1
+  score: 10
+  damage: 4
   timeIntervalToAttack: 2
   timeIntervalToAnimateIdle: 0.5
   idleSprite: {fileID: 7628566249266435210, guid: e2043c004e3fb2e44a76cf9581fc7443, type: 3}

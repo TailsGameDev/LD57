@@ -41,6 +41,7 @@ public class GameController : MonoBehaviour
         uiManager.Initialize(gameState.MaxPlayerHP,gameState.MaxPlayerHunger);
         targetHp = gameState.MaxPlayerHP;
         Debug.Log($"[Init] MaxPlayerHunger: {gameState.MaxPlayerHunger} | PlayerHunger: {gameState.PlayerHunger}");
+        uiManager.SetHighScore();
 
     }
     private void Update()
@@ -54,20 +55,27 @@ public class GameController : MonoBehaviour
             isLoadingMainMenu = true;
         }
 
-        if(gameState.PlayerHP != targetHp)
+        if (!isGameOver && gameState.PlayerHunger <= 0)
+        {
+            GameOver();
+        }
+
+
+        if (gameState.PlayerHP != targetHp)
         {
             gameState.PlayerHP--;
-            uiManager.SetPlayerHP(gameState.PlayerHP);
+            uiManager.SetPlayerHunger(gameState.PlayerHunger);
 
-            if (gameState.PlayerHP <= 0)
+            // Verifica se a fome zerou
+            if (gameState.PlayerHunger <= 0 && !isGameOver)
             {
-                isGameOver = true;
+                GameOver();
+            }
 
-                uiManager.ShowGameOverText();
 
-                Time.timeScale = 0.0f;
-
-                unscaledTimeToGoToMenu = Time.unscaledTime + gameOverStateDuration;
+            if ((gameState.PlayerHP <= 0))
+            {
+                GameOver();
             }
         }
 
@@ -90,7 +98,7 @@ public class GameController : MonoBehaviour
             }
         }
 
-
+        UpdateUI();
 
     }
 
@@ -116,6 +124,20 @@ public class GameController : MonoBehaviour
         }
     }
 
+    private void CheckAndSaveHighScore()
+    {
+        int currentScore = gameState.Score;
+        int savedHighScore = PlayerPrefs.GetInt("HighScore", 0);
+
+        if (currentScore > savedHighScore)
+        {
+            PlayerPrefs.SetInt("HighScore", currentScore);
+            PlayerPrefs.Save(); 
+            Debug.Log("New High Score: " + currentScore);
+        }
+    }
+
+
     public void HitPlayer(float damage)
     {
         targetHp = gameState.PlayerHP - damage;
@@ -133,4 +155,22 @@ public class GameController : MonoBehaviour
         uiManager.SetPlayerHunger(gameState.PlayerHunger);
 
     }
+    public void GameOver()
+    {
+        isGameOver = true;
+        CheckAndSaveHighScore();
+
+        uiManager.ShowGameOverText();
+        uiManager.SetHighScore();
+
+        Time.timeScale = 0.0f;
+
+        unscaledTimeToGoToMenu = Time.unscaledTime + gameOverStateDuration;
+    }
+    private void UpdateUI()
+    {
+        uiManager.SetPlayerHP(gameState.PlayerHP);
+        uiManager.SetPlayerHunger(gameState.PlayerHunger);
+    }
+
 }

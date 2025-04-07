@@ -19,6 +19,10 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Image StomachFill = null;
 
+    [SerializeField]
+    private TMPro.TextMeshProUGUI highScoreText;
+
+
     private float timeToTryFixCameraAspectAgain;
 
     private float playerMaxHP;
@@ -137,4 +141,10 @@ public class UIManager : MonoBehaviour
     {
         loadingPanel.SetActive(true);
     }
+    public void SetHighScore()
+    {
+        int highScore = PlayerPrefs.GetInt("HighScore", 0);
+        highScoreText.text = "High Score: " + highScore;
+    }
+
 }
