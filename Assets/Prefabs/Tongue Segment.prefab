@@ -52,12 +52,12 @@ MonoBehaviour:
   previous: {fileID: 0}
   shaker: {fileID: 2530405745444941448}
   ants: []
-  vertical: {fileID: 1007101189, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
-  horizontal: {fileID: -1442243084, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
-  leftDown: {fileID: -281921480, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
-  rightDown: {fileID: -872786361, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
-  leftUp: {fileID: -1239635551, guid: 287d07c6d779c7c49a6d56d074ce8b86, type: 3}
-  rightUp: {fileID: -1279314495, guid: e1470906c17aa0c4fa025d494ce9c223, type: 3}
+  vertical: {fileID: 3518947751748465013, guid: a8c9947591051104aa5e1003d53777be, type: 3}
+  horizontal: {fileID: 7322649494317506722, guid: a8c9947591051104aa5e1003d53777be, type: 3}
+  leftDown: {fileID: 873507377, guid: a8c9947591051104aa5e1003d53777be, type: 3}
+  rightDown: {fileID: -2001907467, guid: a8c9947591051104aa5e1003d53777be, type: 3}
+  leftUp: {fileID: -1683426462, guid: a8c9947591051104aa5e1003d53777be, type: 3}
+  rightUp: {fileID: -1133242935, guid: a8c9947591051104aa5e1003d53777be, type: 3}
 --- !u!61 &8869742778315334713
 BoxCollider2D:
   m_ObjectHideFlags: 0
