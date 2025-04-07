@@ -143,7 +143,7 @@ public class Tongue : MonoBehaviour, IAntCatcher
     public void CatchAnt(Transform antTransform)
     {
         antTransform.parent = transform;
-        Debug.Log("Catch!!");
+        // Debug.Log("Catch!!");
         ants.Add(antTransform);
     }
 }
