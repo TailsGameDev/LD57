@@ -60,7 +60,6 @@ public class TongueSegment : MonoBehaviour, IAntCatcher
         antTransform.parent = transform;
         Debug.Log("Catch!!");
         ants.Add(antTransform);
-
     }
 
     public void TakeDamage()
