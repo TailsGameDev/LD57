@@ -81,7 +81,7 @@ public class UIManager : MonoBehaviour
 
     public void SetScore(int score)
     {
-        scoreText.text = "score: " + score;
+        scoreText.text = score.ToString();
     }
     public void SpawnScoreVFX(Transform scoreVFXStartPosition, int increaseAmount, Action onComplete)
     {
