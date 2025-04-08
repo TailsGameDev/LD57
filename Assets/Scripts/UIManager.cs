@@ -21,6 +21,8 @@ public class UIManager : MonoBehaviour
 
     [SerializeField]
     private TMPro.TextMeshProUGUI highScoreText;
+    [SerializeField]
+    private CanvasScaler canvasScaler = null;
 
 
     private float timeToTryFixCameraAspectAgain;
@@ -67,7 +69,7 @@ public class UIManager : MonoBehaviour
     }
     private void FixCameraAspect()
     {
-        // Run IA code to scale screen to aspect 16:9
+        // Run AI code to scale screen to aspect 16:9
         const float TARGET_ASPECT = 16.0f / 9.0f;
         float windowAspect = (float)Screen.width / (float)Screen.height;
         float scaleHeight = windowAspect / TARGET_ASPECT;
@@ -87,6 +89,10 @@ public class UIManager : MonoBehaviour
             rect.y = 0;
             Camera.main.rect = rect;
         }
+
+        // Update the UI Canvas with your aspect ratio logic
+        canvasScaler.referenceResolution = new Vector2(1920, 1080); // Target resolution for 16:9
+        canvasScaler.matchWidthOrHeight = (Screen.width / (float)Screen.height > 16.0f / 9.0f) ? 1 : 0;
     }
 
     public void SetScore(int score)
