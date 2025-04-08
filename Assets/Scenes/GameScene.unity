@@ -3642,7 +3642,7 @@ GameObject:
   - component: {fileID: 1773384033}
   - component: {fileID: 1773384032}
   m_Layer: 7
-  m_Name: Right Invisible Wall (1)
+  m_Name: Right Screen Limit
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3941,7 +3941,7 @@ GameObject:
   - component: {fileID: 1806000259}
   - component: {fileID: 1806000258}
   m_Layer: 7
-  m_Name: Left Invisible Wall (1)
+  m_Name: Left Screen Limit
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
