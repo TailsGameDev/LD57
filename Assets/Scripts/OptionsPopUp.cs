@@ -12,6 +12,8 @@ public class OptionsPopUp : MonoBehaviour
     public void ShowPopUp(bool show)
     {
         gameObject.SetActive(show);
+
+        musicSlider.value = PlayerPrefs.GetFloat(SoundsManager.PLAYERPREFS_MUSIC_VOLUME_TAG, defaultValue: SoundsManager.DEFAULT_MUSIC_VOLUME);
     }
 
     public void OnMusicSlideValueChange()
@@ -23,8 +25,8 @@ public class OptionsPopUp : MonoBehaviour
         SoundsManager.Instance.SetSFXVolume(musicSlider.value);
     }
 
-    public void OnMainMenuClick() {
+    public void OnMainMenuClick()
+    {
         SceneManager.LoadSceneAsync("MainMenu");
-    
     }
 }

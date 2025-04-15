@@ -1,30 +1,50 @@
 using UnityEngine;
-using UnityEngine.UIElements.Experimental;
 
 public class SoundsManager : MonoBehaviour
 {
+    public enum SoundId
+    {
+        NONE = 0,
+        MUSIC = 1,
+    }
+    [System.Serializable]
+    private struct SoundRegister
+    {
+        [SerializeField]
+        private SoundId id;
+        [SerializeField]
+        private AudioClip audioClip;
+
+        public SoundId Id { get => id; }
+        public AudioClip AudioClip { get => audioClip; }
+    }
+
+
     [SerializeField]
     private AudioSource musicAudioSource = null;
-
     [SerializeField]
     private AudioSource[] sfxAudioSources = null;
 
-    public static SoundsManager Instance;
+    [SerializeField]
+    private SoundRegister[] sondRegisters = null;
+
+    private static SoundsManager instance;
 
     private int sfxAudioSourceIndex;
 
 
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-    }
+    public const float DEFAULT_MUSIC_VOLUME = 0.5f;
+    public const string PLAYERPREFS_MUSIC_VOLUME_TAG = "MUSIC_VOLUME";
 
 
-    public void PlayMusic()
+    public static SoundsManager Instance { get => instance; }
+
+    public void Initialize()
     {
+        instance = this;
+
+        SetMusicVolume(DEFAULT_MUSIC_VOLUME);
+        Debug.LogError("play music");
         musicAudioSource.Play();
     }
 
@@ -37,6 +57,7 @@ public class SoundsManager : MonoBehaviour
     public void SetMusicVolume(float value)
     {
         musicAudioSource.volume = value;
+        PlayerPrefs.SetFloat(PLAYERPREFS_MUSIC_VOLUME_TAG, value);
     }
     public void SetSFXVolume(float value)
     {
