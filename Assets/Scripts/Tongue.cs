@@ -9,6 +9,12 @@ public class Tongue : MonoBehaviour, IAntCatcher
 {
     public static Tongue instance;
 
+    [SerializeField]
+    private AudioSource tongueGoAudioSource;
+    [SerializeField]
+    private AudioSource tongueBackAudioSource;
+
+
     public Vector2 direction = Vector2.zero;
     public TongueSegment lastSegment;
     private bool isRollingBack = false;
@@ -27,8 +33,11 @@ public class Tongue : MonoBehaviour, IAntCatcher
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+        
         instance = this;
     }
+
+    
     // Update is called once per frame
     void Update()
     {
@@ -65,9 +74,16 @@ public class Tongue : MonoBehaviour, IAntCatcher
         if (isRollingBack) RollBack();
         else if (ShouldMove() && isFreeSpace())
         {
+            if (!tongueGoAudioSource.isPlaying)
+            {
+                tongueGoAudioSource.Play();
+            }
             nextUpdateTime = Time.time + timeDif;
             TongueManager.CreateSegment(transform.position);
             Move();
+        }else if (tongueGoAudioSource.isPlaying)
+        {
+            tongueGoAudioSource.Stop();
         }
     }
 
@@ -89,6 +105,11 @@ public class Tongue : MonoBehaviour, IAntCatcher
         transform.position = lastSegment.transform.position;
         lastSegment.ants.ForEach(ant => CatchAnt(ant));
 
+        if (!tongueBackAudioSource.isPlaying)
+        {
+            tongueBackAudioSource.Play();
+        }
+
         if (lastSegment.previous != null) { 
             SetLastSegment(lastSegment.previous.GetComponent<TongueSegment>(), true);
 
@@ -104,6 +125,10 @@ public class Tongue : MonoBehaviour, IAntCatcher
 
             ants.Clear();
             isRollingBack = false;
+            if (tongueBackAudioSource.isPlaying)
+            {
+                tongueBackAudioSource.Stop();
+            }
         }
     }
 
@@ -125,6 +150,7 @@ public class Tongue : MonoBehaviour, IAntCatcher
             Mathf.Round(this.transform.position.x) + direction.x,
             Mathf.Round(this.transform.position.y) + direction.y,
             0
+            
         );
     }
 
