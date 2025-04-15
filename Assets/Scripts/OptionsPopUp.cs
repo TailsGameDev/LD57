@@ -14,6 +14,9 @@ public class OptionsPopUp : MonoBehaviour
         gameObject.SetActive(show);
 
         musicSlider.value = PlayerPrefs.GetFloat(SoundsManager.PLAYERPREFS_MUSIC_VOLUME_TAG, defaultValue: SoundsManager.DEFAULT_MUSIC_VOLUME);
+    
+        // Implement simple game pause
+        Time.timeScale = show ? 0.0f : 1.0f;
     }
 
     public void OnMusicSlideValueChange()

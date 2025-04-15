@@ -44,7 +44,6 @@ public class SoundsManager : MonoBehaviour
         instance = this;
 
         SetMusicVolume(DEFAULT_MUSIC_VOLUME);
-        Debug.LogError("play music");
         musicAudioSource.Play();
     }
 
