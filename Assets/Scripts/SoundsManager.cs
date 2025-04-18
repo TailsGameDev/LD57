@@ -40,6 +40,7 @@ public class SoundsManager : MonoBehaviour
 
 
     public const float DEFAULT_MUSIC_VOLUME = 0.5f;
+    public const float DEFAULT_SFX_VOLUME = 0.5f;
     public const string PLAYERPREFS_MUSIC_VOLUME_TAG = "MUSIC_VOLUME";
 
 
@@ -50,6 +51,7 @@ public class SoundsManager : MonoBehaviour
         instance = this;
 
         SetMusicVolume(DEFAULT_MUSIC_VOLUME);
+        SetSFXVolume(DEFAULT_SFX_VOLUME);
         musicAudioSource.Play();
     }
 
