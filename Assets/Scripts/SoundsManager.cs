@@ -64,6 +64,10 @@ public class SoundsManager : MonoBehaviour
         {
             genericAudioSources[s].volume = value;
         }
+        for (int s = 0; s < reservedAudioSources.Length; s++)
+        {
+            reservedAudioSources[s].volume = value;
+        }
     }
 
     public void PlayReserved(SoundId sound, SoundLayer layer)
