@@ -320,7 +320,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicAudioSource: {fileID: 3744170401761558532}
-  sfxAudioSources:
+  reservedAudioSources:
+  - {fileID: 347006258505376505}
+  - {fileID: 451443379370550447}
+  - {fileID: 7331683685055432332}
+  - {fileID: 1923369136788534612}
+  - {fileID: 4652899033695187700}
+  genericAudioSources:
   - {fileID: 6123034459242731034}
   - {fileID: 5281015707670379713}
   - {fileID: 2945039414599956529}
@@ -332,14 +338,13 @@ MonoBehaviour:
   - {fileID: 6438678430704330917}
   - {fileID: 4253344900299922308}
   - {fileID: 3545815693293173365}
-  - {fileID: 347006258505376505}
-  - {fileID: 451443379370550447}
-  - {fileID: 7331683685055432332}
-  - {fileID: 1923369136788534612}
-  - {fileID: 4652899033695187700}
-  sondRegisters:
+  soundRegisters:
   - id: 1
     audioClip: {fileID: 8300000, guid: c955b5517cd34854f865c9e907e16774, type: 3}
+  - id: 2
+    audioClip: {fileID: 8300000, guid: 4302c388ddb1bbb479e1e95fad38ef61, type: 3}
+  - id: 3
+    audioClip: {fileID: 8300000, guid: 00f1fad0d12ec2846a4a61bbdf13604c, type: 3}
 --- !u!1 &2068949789430858545
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,7 +779,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1171,7 +1176,7 @@ GameObject:
   - component: {fileID: 1710837542849563141}
   - component: {fileID: 5281015707670379713}
   m_Layer: 0
-  m_Name: SFX Audio Source (1)
+  m_Name: SFX Audio Source - tongueBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1202,12 +1207,12 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 00f1fad0d12ec2846a4a61bbdf13604c, type: 3}
+  m_Resource: {fileID: 8300000, guid: 00f1fad0d12ec2846a4a61bbdf13604c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2203,7 +2208,7 @@ GameObject:
   - component: {fileID: 4289322785834699917}
   - component: {fileID: 6123034459242731034}
   m_Layer: 0
-  m_Name: SFX Audio Source
+  m_Name: SFX Audio Source- tongueGo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2234,12 +2239,12 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4302c388ddb1bbb479e1e95fad38ef61, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4302c388ddb1bbb479e1e95fad38ef61, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

@@ -1132,9 +1132,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -6584059299522399201, guid: a8c9947591051104aa5e1003d53777be, type: 3}
     - target: {fileID: 3240646598092466793, guid: 8f57ce37dd8b79d459294e671635a871, type: 3}
+      propertyPath: timeDif
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240646598092466793, guid: 8f57ce37dd8b79d459294e671635a871, type: 3}
       propertyPath: tongueGoAudioSource
       value: 
-      objectReference: {fileID: 1196391649}
+      objectReference: {fileID: 8300000, guid: 4302c388ddb1bbb479e1e95fad38ef61, type: 3}
     - target: {fileID: 3240646598092466793, guid: 8f57ce37dd8b79d459294e671635a871, type: 3}
       propertyPath: tongueBackAudioSource
       value: 
@@ -2485,11 +2489,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1131597350347397859, guid: 3ad7c1a59fa68c742a6c367ac4b3d8fc, type: 3}
   m_PrefabInstance: {fileID: 1187495969}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1196391649 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 6123034459242731034, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-  m_PrefabInstance: {fileID: 6586398673920525284}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1243907089
 PrefabInstance:
@@ -9040,45 +9039,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3744170401761558532, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4393801108871000686, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
       propertyPath: m_Name
       value: Indestructible Root
-      objectReference: {fileID: 0}
-    - target: {fileID: 5281015707670379713, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5281015707670379713, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 00f1fad0d12ec2846a4a61bbdf13604c, type: 3}
-    - target: {fileID: 5281015707670379713, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 00f1fad0d12ec2846a4a61bbdf13604c, type: 3}
-    - target: {fileID: 5497081378329836931, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: m_Name
-      value: SFX Audio Source - tongueBack
-      objectReference: {fileID: 0}
-    - target: {fileID: 6123034459242731034, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6123034459242731034, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 4302c388ddb1bbb479e1e95fad38ef61, type: 3}
-    - target: {fileID: 6123034459242731034, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 4302c388ddb1bbb479e1e95fad38ef61, type: 3}
-    - target: {fileID: 8847279706523186000, guid: 98d3baf1b9b91fb45b1570382ef40324, type: 3}
-      propertyPath: m_Name
-      value: SFX Audio Source- tongueGo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
