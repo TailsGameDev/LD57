@@ -1,12 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class SoundsManager : MonoBehaviour
 {
-    public enum SoundId
-    {
-        NONE = 0,
-        MUSIC = 1,
-    }
+
+
+
     [System.Serializable]
     private struct SoundRegister
     {
@@ -22,11 +22,17 @@ public class SoundsManager : MonoBehaviour
 
     [SerializeField]
     private AudioSource musicAudioSource = null;
-    [SerializeField]
-    private AudioSource[] sfxAudioSources = null;
 
     [SerializeField]
-    private SoundRegister[] sondRegisters = null;
+    private AudioSource[] reservedAudioSources = null;
+
+
+    [SerializeField]
+    [FormerlySerializedAs("sfxAudioSources")]
+    private AudioSource[] genericAudioSources = null;
+
+    [SerializeField]
+    private List<SoundRegister> soundRegisters = null;
 
     private static SoundsManager instance;
 
@@ -47,12 +53,6 @@ public class SoundsManager : MonoBehaviour
         musicAudioSource.Play();
     }
 
-    public void PlaySFX(AudioClip sfx)
-    {
-        sfxAudioSources[sfxAudioSourceIndex].PlayOneShot(sfx);
-        sfxAudioSourceIndex = (sfxAudioSourceIndex + 1) % sfxAudioSources.Length;
-    }
-
     public void SetMusicVolume(float value)
     {
         musicAudioSource.volume = value;
@@ -60,9 +60,53 @@ public class SoundsManager : MonoBehaviour
     }
     public void SetSFXVolume(float value)
     {
-        for (int s = 0; s < sfxAudioSources.Length; s++)
+        for (int s = 0; s < genericAudioSources.Length; s++)
         {
-            sfxAudioSources[s].volume = value;
+            genericAudioSources[s].volume = value;
         }
     }
+
+    public void PlayReserved(SoundId sound, SoundLayer layer)
+    {
+        AudioClip clip = soundRegisters.Find(register => register.Id.Equals(sound)).AudioClip;
+        reservedAudioSources[(int)layer].PlayOneShot(clip);
+    }
+
+    public void PlayReservedPolitely(SoundId sound, SoundLayer layer)
+    {
+        int index = (int)layer;
+
+        if (!reservedAudioSources[index].isPlaying)
+        {
+            AudioClip clip = soundRegisters.Find(register => register.Id.Equals(sound)).AudioClip;
+            reservedAudioSources[index].PlayOneShot(clip);
+        }
+    }
+
+    public void StopReserved(SoundLayer layer)
+    {
+        reservedAudioSources[(int)layer].Stop();
+    }
+
+    public void PlayGeneric(SoundId sound)
+    {
+        AudioClip clip = soundRegisters.Find(register => register.Id.Equals(sound)).AudioClip;
+        genericAudioSources[sfxAudioSourceIndex].PlayOneShot(clip);
+        sfxAudioSourceIndex = (sfxAudioSourceIndex + 1) % genericAudioSources.Length;
+    }
+}
+public enum SoundId
+{
+    NONE = 0,
+    MUSIC = 1,
+    LINGUA_INDO = 2,
+    LINGUA_VOLTANDO = 3
+}
+
+public enum SoundLayer
+{
+    MUSIC = 0,
+    LINGUA = 1,
+    FORMIGA = 2,
+    VOLTANDO = 3
 }

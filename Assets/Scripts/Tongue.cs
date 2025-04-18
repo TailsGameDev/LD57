@@ -4,16 +4,18 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using System;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEditor.Rendering.Universal.ShaderGUI;
 
 public class Tongue : MonoBehaviour, IAntCatcher
 {
     public static Tongue instance;
-
+    
     [SerializeField]
-    private AudioSource tongueGoAudioSource;
+    private AudioClip tongueGoAudioSource;
+    
     [SerializeField]
     private AudioSource tongueBackAudioSource;
-
+    
 
     public Vector2 direction = Vector2.zero;
     public TongueSegment lastSegment;
@@ -74,17 +76,15 @@ public class Tongue : MonoBehaviour, IAntCatcher
         if (isRollingBack) RollBack();
         else if (ShouldMove() && isFreeSpace())
         {
-            if (!tongueGoAudioSource.isPlaying)
-            {
-                tongueGoAudioSource.Play();
-            }
+            SoundsManager.Instance.PlayReservedPolitely(SoundId.LINGUA_INDO, SoundLayer.LINGUA);
             nextUpdateTime = Time.time + timeDif;
             TongueManager.CreateSegment(transform.position);
             Move();
-        }else if (tongueGoAudioSource.isPlaying)
+        }
+        /*else if (tongueGoAudioSource.isPlaying)
         {
             tongueGoAudioSource.Stop();
-        }
+        }*/
     }
 
     private bool isFreeSpace()
@@ -104,11 +104,10 @@ public class Tongue : MonoBehaviour, IAntCatcher
         sr.sprite = PickSprite(lastSegment.direction);
         transform.position = lastSegment.transform.position;
         lastSegment.ants.ForEach(ant => CatchAnt(ant));
+ 
 
-        if (!tongueBackAudioSource.isPlaying)
-        {
-            tongueBackAudioSource.Play();
-        }
+
+        SoundsManager.Instance.PlayReservedPolitely(SoundId.LINGUA_VOLTANDO, SoundLayer.VOLTANDO);
 
         if (lastSegment.previous != null) { 
             SetLastSegment(lastSegment.previous.GetComponent<TongueSegment>(), true);
@@ -125,10 +124,8 @@ public class Tongue : MonoBehaviour, IAntCatcher
 
             ants.Clear();
             isRollingBack = false;
-            if (tongueBackAudioSource.isPlaying)
-            {
-                tongueBackAudioSource.Stop();
-            }
+            SoundsManager.Instance.StopReserved(SoundLayer.VOLTANDO);
+
         }
     }
 
